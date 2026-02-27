@@ -1,0 +1,128 @@
+:root{
+  --bg:#0B3D0B;
+  --card:#0F470F;
+  --card2:#124D12;
+  --border:#1F6F1F;
+
+  --text:#F2F5F0;
+  --muted:#B8D6B8;
+
+  --accent:#7CFF00;
+  --accent2:#C8FF6A;
+
+  --danger:#FF6A6A;
+
+  font-family: system-ui, Segoe UI, Arial, sans-serif;
+}
+
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Cards */
+.card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+/* Layout helpers */
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grid{
+  display: grid;
+  gap: 14px;
+}
+
+.row{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Headings */
+.h1{
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent2);
+}
+
+.muted{
+  color: var(--muted);
+  opacity: 0.9;
+}
+
+/* Buttons */
+.listbtn{
+  width: 100%;
+  text-align: left;
+  background: var(--card2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 12px;
+  border-radius: 12px;
+  transition: background 0.15s ease, border 0.15s ease, transform 0.05s ease;
+}
+
+.listbtn:hover{
+  background: #1A5E1A;
+  border-color: var(--accent);
+}
+
+.choice{
+  border: 1px solid var(--border);
+  background: var(--card2);
+  padding: 12px;
+  border-radius: 12px;
+  width: 100%;
+  text-align: left;
+  color: var(--text);
+  transition: background 0.15s ease, border 0.15s ease;
+}
+
+.choice:hover{
+  background: #1A5E1A;
+  border-color: var(--accent);
+}
+
+/* If you use selected/active classes (optional but nice) */
+.listbtn.selected,
+.choice.selected{
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Input */
+.input{
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #0D430D;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.input:focus{
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(124, 255, 0, 0.22);
+}
+
+/* Feedback */
+.ok{
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.bad{
+  color: var(--danger);
+  font-weight: 600;
+}

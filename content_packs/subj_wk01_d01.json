@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "subjunctive_intensive_wk01",
+    "title": "Subjunctive Intensive Week",
+    "description": "Intensive subjunctive practice — Week 1.",
+    "level_cefr": "B1",
+    "sort_order": 501,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "subj_wk01_d01",
+    "theme_code": "subjunctive_intensive_wk01",
+    "title": "Present Subjunctive – Formation & Basic Triggers",
+    "instructions": "querer que, necesitar que, esperar que",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I want you to study tonight.",
+      "answer": "Quiero que estudies esta noche.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She hopes that we arrive early.",
+      "answer": "Ella espera que lleguemos temprano.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "Es necesario que tú ______ (trabajar) más.",
+      "answer": "trabajes",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We need them to finish the project.",
+      "answer": "Necesitamos que ellos terminen el proyecto.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "Quiero que él ______ (ir) conmigo.",
+      "answer": "vaya",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I hope you have a good day.",
+      "answer": "Espero que tengas un buen día.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Ella quiere que nosotros seamos honestos.",
+      "answer": "She wants us to be honest.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "Espero que ustedes ______ (tener) tiempo.",
+      "answer": "tengan",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My mother wants me to call her.",
+      "answer": "Mi madre quiere que yo la llame.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "Necesitamos que ella ______ (venir) temprano.",
+      "answer": "venga",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}

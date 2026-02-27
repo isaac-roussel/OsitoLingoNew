@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "subjunctive_intensive_wk01",
+    "title": "Subjunctive Intensive Week",
+    "description": "Intensive subjunctive practice — Week 1.",
+    "level_cefr": "B1",
+    "sort_order": 501,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "subj_wk01_d05",
+    "theme_code": "subjunctive_intensive_wk01",
+    "title": "Indicative vs Subjunctive Meaning Contrast",
+    "instructions": "existence vs non-existence, belief vs doubt",
+    "estimated_min": 10,
+    "sort_order": 50,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I’m looking for a book that explains this topic.",
+      "answer": "Busco un libro que explique este tema.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I know a person who speaks Japanese.",
+      "answer": "Conozco a una persona que habla japonés.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "No hay nadie que ______ (poder) ayudarte.",
+      "answer": "pueda",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I’m looking for a job that is interesting.",
+      "answer": "Busco un trabajo que sea interesante.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I believe that he is honest.",
+      "answer": "Creo que él es honesto.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I don’t believe that he is honest.",
+      "answer": "No creo que él sea honesto.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "Necesito un médico que ______ (hablar) español.",
+      "answer": "hable",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "There is a restaurant that serves good tacos.",
+      "answer": "Hay un restaurante que sirve buenos tacos.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "Quiero algo que me ______ (hacer) feliz.",
+      "answer": "haga",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I know a place that has good food.",
+      "answer": "Conozco un lugar que tiene buena comida.",
+      "explanation": "",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}
