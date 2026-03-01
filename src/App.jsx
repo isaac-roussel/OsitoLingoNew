@@ -471,7 +471,7 @@ function onLevelChange(e) {
           style={{ width: 120, height: "auto", marginBottom: 12 }}
         />
         <div className="h1">OsitoLingo</div>
-        <div className="muted">Pick a level, a theme, then start a lesson.</div>
+        <div className="muted">Pick a CEFR level, a theme, then start a lesson.</div>
 
         {progress && (
           <div style={{ marginTop: 16 }}>
