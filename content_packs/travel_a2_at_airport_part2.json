@@ -1,0 +1,145 @@
+{
+  "theme": {
+    "theme_code": "TRAVEL_A2",
+    "title": "Travel Spanish (A2)",
+    "description": "Core travel survival Spanish",
+    "level_cefr": "A2",
+    "sort_order": 1,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "TRAVEL_A2_L2",
+    "theme_code": "TRAVEL_A2",
+    "title": "At the Airport (Part 2)",
+    "instructions": "Translate, choose, and fill in airport phrases (Part 2).",
+    "estimated_min": 12,
+    "sort_order": 2,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "¿Cuánto cuesta facturar una maleta?",
+      "answer": "How much does it cost to check a bag?",
+      "answer_alt": "How much does it cost to check a suitcase?",
+      "explanation": "'facturar' = to check (luggage).",
+      "difficulty": 3,
+      "sort_order": 1
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Mi puerta cambió.",
+      "answer": "My gate changed.",
+      "answer_alt": "My gate has changed.",
+      "explanation": "Airport context: gate reassignment.",
+      "difficulty": 2,
+      "sort_order": 2
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "El vuelo sale a tiempo.",
+      "answer": "The flight leaves on time.",
+      "answer_alt": "The flight departs on time.",
+      "explanation": "'a tiempo' = on time.",
+      "difficulty": 2,
+      "sort_order": 3
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "¿Tiene algo que declarar?",
+      "answer": "Do you have anything to declare?",
+      "answer_alt": "Do you have anything to declare (customs)?",
+      "explanation": "Customs question.",
+      "difficulty": 3,
+      "sort_order": 4
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Voy a la terminal B.",
+      "answer": "I'm going to Terminal B.",
+      "answer_alt": "I'm going to the B terminal.",
+      "explanation": "'terminal' is the same word.",
+      "difficulty": 1,
+      "sort_order": 5
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "¿Dónde recojo mi equipaje?",
+      "answer": "Where do I pick up my luggage?",
+      "answer_alt": "Where do I collect my baggage?",
+      "explanation": "'recojo' = I pick up / collect.",
+      "difficulty": 2,
+      "sort_order": 6
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "Complete: ¿A qué hora ____ el vuelo?",
+      "answer": "sale",
+      "answer_alt": "despega",
+      "explanation": "Both 'sale' and 'despega' work here.",
+      "difficulty": 2,
+      "sort_order": 7
+    },
+    {
+      "exercise_type": "fill_blank",
+      "prompt": "Complete: Perdí mi ____.",
+      "answer": "equipaje",
+      "answer_alt": "maleta",
+      "explanation": "'equipaje' = luggage; 'maleta' = suitcase.",
+      "difficulty": 1,
+      "sort_order": 8
+    },
+    {
+      "exercise_type": "mcq",
+      "prompt": "Choose the best translation: \"I have a connection.\"",
+      "answer": "Tengo una conexión.",
+      "difficulty": 2,
+      "sort_order": 9,
+      "choices": [
+        { "choice_text": "Tengo una conexión.", "is_correct": 1, "sort_order": 1 },
+        { "choice_text": "Tengo una maleta.", "is_correct": 0, "sort_order": 2 },
+        { "choice_text": "Necesito un taxi.", "is_correct": 0, "sort_order": 3 },
+        { "choice_text": "Estoy en la puerta.", "is_correct": 0, "sort_order": 4 }
+      ]
+    },
+    {
+      "exercise_type": "mcq",
+      "prompt": "Choose the best meaning: \"retrasado\"",
+      "answer": "delayed",
+      "difficulty": 2,
+      "sort_order": 10,
+      "choices": [
+        { "choice_text": "delayed", "is_correct": 1, "sort_order": 1 },
+        { "choice_text": "lost", "is_correct": 0, "sort_order": 2 },
+        { "choice_text": "expensive", "is_correct": 0, "sort_order": 3 },
+        { "choice_text": "open", "is_correct": 0, "sort_order": 4 }
+      ]
+    },
+    {
+      "exercise_type": "mcq",
+      "prompt": "Choose the best translation: \"boarding pass\"",
+      "answer": "tarjeta de embarque",
+      "difficulty": 1,
+      "sort_order": 11,
+      "choices": [
+        { "choice_text": "tarjeta de embarque", "is_correct": 1, "sort_order": 1 },
+        { "choice_text": "pasaporte", "is_correct": 0, "sort_order": 2 },
+        { "choice_text": "recogida de equipaje", "is_correct": 0, "sort_order": 3 },
+        { "choice_text": "mostrador", "is_correct": 0, "sort_order": 4 }
+      ]
+    },
+    {
+      "exercise_type": "mcq",
+      "prompt": "Pick the most natural question to ask for help (formal).",
+      "answer": "¿Me puede ayudar, por favor?",
+      "difficulty": 1,
+      "sort_order": 12,
+      "choices": [
+        { "choice_text": "¿Me puede ayudar, por favor?", "is_correct": 1, "sort_order": 1 },
+        { "choice_text": "¿Ayudas tú a mí?", "is_correct": 0, "sort_order": 2 },
+        { "choice_text": "¿Tú ayuda por favor?", "is_correct": 0, "sort_order": 3 },
+        { "choice_text": "¿Yo puedo ayuda?", "is_correct": 0, "sort_order": 4 }
+      ]
+    }
+  ]
+}
