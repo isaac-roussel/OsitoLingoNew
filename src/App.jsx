@@ -239,9 +239,22 @@ function onLevelChange(e) {
 
   async function next() {
     const total = run?.exercises?.length ?? 0;
-    if (!total) return;
+    if (!total || !ex || !feedback) return;
+
+    const answeredCorrectly = !!feedback.ok;
+    if (!answeredCorrectly) {
+      setRun((curr) => {
+        if (!curr?.exercises?.length) return curr;
+        return { ...curr, exercises: [...curr.exercises, { ...ex }] };
+      });
+    }
 
     if (idx < total - 1) {
+      setIdx((i) => i + 1);
+      return;
+    }
+
+    if (!answeredCorrectly) {
       setIdx((i) => i + 1);
       return;
     }
@@ -449,7 +462,7 @@ function onLevelChange(e) {
               <button className="choice" onClick={prev} style={{ width: 140 }} disabled={idx === 0}>
                 Previous
               </button>
-              <button className="choice" onClick={next} style={{ width: 140 }}>
+              <button className="choice" onClick={next} style={{ width: 140 }} disabled={!feedback}>
                 {idx === total - 1 ? "Finish" : "Next"}
               </button>
             </div>
