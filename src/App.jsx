@@ -3,12 +3,20 @@ import { api } from "./api.js";
 import homeLogo from "./assets/OsitoLogoSmall.png";
 ///////////////////
 
-const BANK_DISTRACTORS = [
+const BANK_DISTRACTORS_ES = [
   "yo", "tú", "él", "ella", "nosotros", "ellos",
   "muy", "también", "aquí", "allí", "hoy", "mañana",
   "sí", "no", "por", "favor", "gracias", "de", "nada",
   "es", "está", "soy", "tengo", "quiero", "puedo",
   "un", "una", "el", "la", "los", "las"
+];
+
+const BANK_DISTRACTORS_EN = [
+  "I", "you", "he", "she", "we", "they",
+  "very", "also", "here", "there", "today", "tomorrow",
+  "yes", "no", "please", "thanks", "from", "nothing",
+  "is", "am", "have", "want", "can",
+  "a", "an", "the", "my", "your", "our"
 ];
   /*return (
     <div style={{ padding: 16 }}>
@@ -72,10 +80,14 @@ function shuffle(arr) {
   return a;
 }
 
-function sampleDistractors(correctTokens, n = 4) {
+function sampleDistractors(correctTokens, ex, n = 4) {
   const correctSet = new Set(correctTokens.map((w) => normalize(w)));
+  const pool =
+    ex?.exercise_type === "translate_es_to_en"
+      ? BANK_DISTRACTORS_EN
+      : BANK_DISTRACTORS_ES;
 
-  const candidates = BANK_DISTRACTORS.filter(
+  const candidates = pool.filter(
     (w) => !correctSet.has(normalize(w))
   );
 
@@ -168,7 +180,7 @@ const filteredThemes = useMemo(() => {
     const tokens = tokenizeForBank(ex.answer);
 
 if (tokens.length) {
-  const distractors = sampleDistractors(tokens, 4);
+  const distractors = sampleDistractors(tokens, ex, 4);
   setBankWords(shuffle([...tokens, ...distractors]));
 } else {
   setBankWords([]);
@@ -585,3 +597,5 @@ function onLevelChange(e) {
     </div>
   );
 }
+
+
