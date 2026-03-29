@@ -72,19 +72,17 @@
       "sort_order": 6
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Complete: ¿A qué hora ____ el vuelo?",
-      "answer": "sale",
-      "answer_alt": "despega",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "¿A qué hora sale el vuelo?",
+      "answer": "What time does the flight leave?",
       "explanation": "Both 'sale' and 'despega' work here.",
       "difficulty": 2,
       "sort_order": 7
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Complete: Perdí mi ____.",
-      "answer": "equipaje",
-      "answer_alt": "maleta",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Perdí mi equipaje.",
+      "answer": "I lost my luggage.",
       "explanation": "'equipaje' = luggage; 'maleta' = suitcase.",
       "difficulty": 1,
       "sort_order": 8
@@ -96,10 +94,26 @@
       "difficulty": 2,
       "sort_order": 9,
       "choices": [
-        { "choice_text": "Tengo una conexión.", "is_correct": 1, "sort_order": 1 },
-        { "choice_text": "Tengo una maleta.", "is_correct": 0, "sort_order": 2 },
-        { "choice_text": "Necesito un taxi.", "is_correct": 0, "sort_order": 3 },
-        { "choice_text": "Estoy en la puerta.", "is_correct": 0, "sort_order": 4 }
+        {
+          "choice_text": "Tengo una conexión.",
+          "is_correct": 1,
+          "sort_order": 1
+        },
+        {
+          "choice_text": "Tengo una maleta.",
+          "is_correct": 0,
+          "sort_order": 2
+        },
+        {
+          "choice_text": "Necesito un taxi.",
+          "is_correct": 0,
+          "sort_order": 3
+        },
+        {
+          "choice_text": "Estoy en la puerta.",
+          "is_correct": 0,
+          "sort_order": 4
+        }
       ]
     },
     {
@@ -109,10 +123,26 @@
       "difficulty": 2,
       "sort_order": 10,
       "choices": [
-        { "choice_text": "delayed", "is_correct": 1, "sort_order": 1 },
-        { "choice_text": "lost", "is_correct": 0, "sort_order": 2 },
-        { "choice_text": "expensive", "is_correct": 0, "sort_order": 3 },
-        { "choice_text": "open", "is_correct": 0, "sort_order": 4 }
+        {
+          "choice_text": "delayed",
+          "is_correct": 1,
+          "sort_order": 1
+        },
+        {
+          "choice_text": "lost",
+          "is_correct": 0,
+          "sort_order": 2
+        },
+        {
+          "choice_text": "expensive",
+          "is_correct": 0,
+          "sort_order": 3
+        },
+        {
+          "choice_text": "open",
+          "is_correct": 0,
+          "sort_order": 4
+        }
       ]
     },
     {
@@ -122,10 +152,26 @@
       "difficulty": 1,
       "sort_order": 11,
       "choices": [
-        { "choice_text": "tarjeta de embarque", "is_correct": 1, "sort_order": 1 },
-        { "choice_text": "pasaporte", "is_correct": 0, "sort_order": 2 },
-        { "choice_text": "recogida de equipaje", "is_correct": 0, "sort_order": 3 },
-        { "choice_text": "mostrador", "is_correct": 0, "sort_order": 4 }
+        {
+          "choice_text": "tarjeta de embarque",
+          "is_correct": 1,
+          "sort_order": 1
+        },
+        {
+          "choice_text": "pasaporte",
+          "is_correct": 0,
+          "sort_order": 2
+        },
+        {
+          "choice_text": "recogida de equipaje",
+          "is_correct": 0,
+          "sort_order": 3
+        },
+        {
+          "choice_text": "mostrador",
+          "is_correct": 0,
+          "sort_order": 4
+        }
       ]
     },
     {
@@ -135,10 +181,26 @@
       "difficulty": 1,
       "sort_order": 12,
       "choices": [
-        { "choice_text": "¿Me puede ayudar, por favor?", "is_correct": 1, "sort_order": 1 },
-        { "choice_text": "¿Ayudas tú a mí?", "is_correct": 0, "sort_order": 2 },
-        { "choice_text": "¿Tú ayuda por favor?", "is_correct": 0, "sort_order": 3 },
-        { "choice_text": "¿Yo puedo ayuda?", "is_correct": 0, "sort_order": 4 }
+        {
+          "choice_text": "¿Me puede ayudar, por favor?",
+          "is_correct": 1,
+          "sort_order": 1
+        },
+        {
+          "choice_text": "¿Ayudas tú a mí?",
+          "is_correct": 0,
+          "sort_order": 2
+        },
+        {
+          "choice_text": "¿Tú ayuda por favor?",
+          "is_correct": 0,
+          "sort_order": 3
+        },
+        {
+          "choice_text": "¿Yo puedo ayuda?",
+          "is_correct": 0,
+          "sort_order": 4
+        }
       ]
     }
   ]

@@ -1,0 +1,111 @@
+{
+  "theme": {
+    "theme_code": "past_tenses_core",
+    "title": "Spanish Past Tenses Core",
+    "description": "Practice the three main Spanish past tenses: pretérito perfecto, pretérito indefinido, and pretérito imperfecto.",
+    "level_cefr": "B1",
+    "sort_order": 200,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "preterite_indefinido_intro",
+    "theme_code": "past_tenses_core",
+    "title": "Pretérito Indefinido",
+    "instructions": "Translate the sentences using the pretérito indefinido to describe completed actions in the past.",
+    "estimated_min": 8,
+    "sort_order": 20,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I ate dinner.",
+      "answer": "Comí la cena.",
+      "answer_alt": "Yo comí la cena.",
+      "explanation": "Comí is the first-person preterite of comer.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We finished the project.",
+      "answer": "Terminamos el proyecto.",
+      "answer_alt": "Nosotros terminamos el proyecto.",
+      "explanation": "Terminamos indicates a completed action.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She visited the museum.",
+      "answer": "Visitó el museo.",
+      "answer_alt": "Ella visitó el museo.",
+      "explanation": "Visitó is the third-person singular preterite.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They bought a car.",
+      "answer": "Compraron un coche.",
+      "answer_alt": "Ellos compraron un coche.",
+      "explanation": "Compraron is the preterite of comprar for ellos.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I read the article.",
+      "answer": "Leí el artículo.",
+      "answer_alt": "Yo leí el artículo.",
+      "explanation": "Leí is the preterite of leer.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We arrived late.",
+      "answer": "Llegamos tarde.",
+      "answer_alt": "Nosotros llegamos tarde.",
+      "explanation": "Llegamos is the preterite of llegar.",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He opened the door.",
+      "answer": "Abrió la puerta.",
+      "answer_alt": "Él abrió la puerta.",
+      "explanation": "Abrió is the third-person preterite of abrir.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "You wrote a message.",
+      "answer": "Escribiste un mensaje.",
+      "answer_alt": "Tú escribiste un mensaje.",
+      "explanation": "Escribiste is the second-person preterite.",
+      "difficulty": 1,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They saw the house.",
+      "answer": "Vieron la casa.",
+      "answer_alt": "Ellos vieron la casa.",
+      "explanation": "Vieron is the preterite of ver.",
+      "difficulty": 1,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We learned Spanish.",
+      "answer": "Aprendimos español.",
+      "answer_alt": "Nosotros aprendimos español.",
+      "explanation": "Aprendimos expresses a finished learning event.",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}

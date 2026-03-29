@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "future_conditional",
+    "title": "Future and Conditional",
+    "description": "Learn how to talk about the future and hypothetical situations",
+    "level_cefr": "B1",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "future_conditional_b1_l4",
+    "theme_code": "future_conditional",
+    "title": "Future and Conditional Review",
+    "instructions": "Translate mixed future and conditional sentences with more context",
+    "estimated_min": 12,
+    "sort_order": 60,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "If we left earlier tomorrow, we would arrive before the meeting begins.",
+      "answer": "Si saliéramos más temprano mañana, llegaríamos antes de que empiece la reunión.",
+      "explanation": "mixed future time reference and conditional result",
+      "difficulty": 3,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Next year she will study engineering, although she would rather study design.",
+      "answer": "El próximo año ella estudiará ingeniería, aunque preferiría estudiar diseño.",
+      "explanation": "future plus conditional preference",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I would lend you my car this weekend if I did not need it for work.",
+      "answer": "Te prestaría mi coche este fin de semana si no lo necesitara para el trabajo.",
+      "explanation": "conditional with object pronoun and reason",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They will probably postpone the event because several guests will arrive late.",
+      "answer": "Probablemente pospondrán el evento porque varios invitados llegarán tarde.",
+      "explanation": "future with probability and cause",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Would you accept the offer if the salary included health insurance?",
+      "answer": "¿Aceptarías la oferta si el salario incluyera seguro médico?",
+      "explanation": "conditional question with a detailed condition",
+      "difficulty": 3,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When the guests arrive, we will serve dinner in the garden if the weather is good.",
+      "answer": "Cuando lleguen los invitados, serviremos la cena en el jardín si hace buen tiempo.",
+      "explanation": "future with time and condition clauses",
+      "difficulty": 3,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My sister would feel less stressed if she slept eight hours every night.",
+      "answer": "Mi hermana se sentiría menos estresada si durmiera ocho horas cada noche.",
+      "explanation": "conditional with reflexive verb",
+      "difficulty": 3,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We will send the final version as soon as the client confirms the changes.",
+      "answer": "Enviaremos la versión final en cuanto el cliente confirme los cambios.",
+      "explanation": "future with business context",
+      "difficulty": 3,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "If I were you, I would wait a few days before making such an important decision.",
+      "answer": "Si yo fuera tú, esperaría unos días antes de tomar una decisión tan importante.",
+      "explanation": "classic advice structure with conditional",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "After we finish this course, we will be able to speak with more confidence.",
+      "answer": "Después de que terminemos este curso, podremos hablar con más confianza.",
+      "explanation": "future with ability expression",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}

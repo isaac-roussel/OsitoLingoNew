@@ -1,6 +1,8 @@
 // src/api.js
 
 export const api = {
+  getLanguages: () => window.api.getLanguages(),
+
   getThemes: () => window.api.getThemes(),
 
   getLessonsByTheme: (themeCode) =>

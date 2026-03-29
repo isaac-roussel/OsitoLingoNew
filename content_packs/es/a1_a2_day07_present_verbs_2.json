@@ -1,0 +1,88 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_04_present_actions",
+    "language_code": "es",
+    "title": "04 Everyday Actions",
+    "description": "Build daily present-tense sentences with regular verbs and simple routines.",
+    "level_cefr": "A1",
+    "sort_order": 140,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day07",
+    "theme_code": "a1_a2_04_present_actions",
+    "language_code": "es",
+    "title": "Day 7: Simple Routines",
+    "instructions": "Combine regular verbs into short routine and lifestyle sentences.",
+    "estimated_min": 10,
+    "sort_order": 20,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I work and study.",
+      "answer": "Trabajo y estudio.",
+      "explanation": "A simple sentence with two verbs.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "You live in a big house.",
+      "answer": "Vives en una casa grande.",
+      "explanation": "Grande follows the noun.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He eats with his friends.",
+      "answer": "Come con sus amigos.",
+      "explanation": "Con means with.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Ella trabaja en un hospital.",
+      "answer": "She works in a hospital.",
+      "explanation": "En means in or at here.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Nosotros comemos a las dos.",
+      "answer": "We eat at two o'clock.",
+      "explanation": "A las introduces the time.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They study in the morning.",
+      "answer": "Estudian por la manana.",
+      "answer_alt": "Estudian en la manana.",
+      "explanation": "Por la manana is common for in the morning.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We work in the city.",
+      "answer": "Trabajamos en la ciudad.",
+      "explanation": "Ciudad means city.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I eat rice and chicken.",
+      "answer": "Como arroz y pollo.",
+      "explanation": "Simple present with food vocabulary.",
+      "difficulty": 1,
+      "sort_order": 80
+    }
+  ]
+}

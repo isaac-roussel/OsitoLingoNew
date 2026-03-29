@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "future_conditional",
+    "title": "Future and Conditional",
+    "description": "Learn how to talk about the future and hypothetical situations",
+    "level_cefr": "B1",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "conditional_basic",
+    "theme_code": "future_conditional",
+    "title": "Conditional Tense",
+    "instructions": "Translate using the conditional tense",
+    "estimated_min": 10,
+    "sort_order": 30,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I would eat that",
+      "answer": "comería eso",
+      "explanation": "conditional endings",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We would study more",
+      "answer": "estudiaríamos más",
+      "explanation": "íamos ending",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She would call you",
+      "answer": "te llamaría",
+      "explanation": "pronoun",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They would travel",
+      "answer": "viajarían",
+      "explanation": "ían ending",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I would buy it",
+      "answer": "lo compraría",
+      "explanation": "direct object",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He would explain the problem",
+      "answer": "explicaría el problema",
+      "explanation": "regular",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We would see you",
+      "answer": "te veríamos",
+      "explanation": "pronoun",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I would tell you the truth",
+      "answer": "te diría la verdad",
+      "explanation": "irregular",
+      "difficulty": 3,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She would open it",
+      "answer": "lo abriría",
+      "explanation": "direct object",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They would learn quickly",
+      "answer": "aprenderían rápido",
+      "explanation": "regular",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}

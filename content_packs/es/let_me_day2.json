@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "requests_permission",
+    "title": "Let Me… Expressions",
+    "description": "Practice Spanish phrases used to politely request permission or offer to do something.",
+    "level_cefr": "A2",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "let_me_day2",
+    "theme_code": "requests_permission",
+    "title": "Let Me – With Objects",
+    "instructions": "Translate the sentences using 'déjame' with object pronouns.",
+    "estimated_min": 8,
+    "sort_order": 20,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me help you.",
+      "answer": "Déjame ayudarte",
+      "explanation": "Ayudarte means 'help you'.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me tell you something.",
+      "answer": "Déjame decirte algo",
+      "explanation": "Decirte means 'tell you'.",
+      "difficulty": 2,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me show you.",
+      "answer": "Déjame mostrarte",
+      "explanation": "Mostrarte means 'show you'.",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me call him.",
+      "answer": "Déjame llamarlo",
+      "explanation": "Llamarlo means 'call him'.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me read it.",
+      "answer": "Déjame leerlo",
+      "explanation": "Leerlo means 'read it'.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me write it.",
+      "answer": "Déjame escribirlo",
+      "explanation": "Escribirlo means 'write it'.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me explain it.",
+      "answer": "Déjame explicarlo",
+      "explanation": "Explicarlo means 'explain it'.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me ask him.",
+      "answer": "Déjame preguntarle",
+      "explanation": "Preguntarle means 'ask him/her'.",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me bring it.",
+      "answer": "Déjame traerlo",
+      "explanation": "Traerlo means 'bring it'.",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me check it.",
+      "answer": "Déjame comprobarlo",
+      "explanation": "Comprobarlo means 'check it'.",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}

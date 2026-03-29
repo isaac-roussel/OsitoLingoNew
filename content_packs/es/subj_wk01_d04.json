@@ -8,91 +8,91 @@
     "is_active": 1
   },
   "lesson": {
-    "lesson_code": "subj_wk01_d02",
+    "lesson_code": "subj_wk01_d04",
     "theme_code": "subjunctive_intensive_wk01",
-    "title": "Doubt & Uncertainty",
-    "instructions": "dudar que, no creer que, quizás, tal vez",
+    "title": "Subjunctive with Conjunctions",
+    "instructions": "cuando (future), para que, antes de que, aunque",
     "estimated_min": 10,
-    "sort_order": 20,
+    "sort_order": 40,
     "is_active": 1
   },
   "exercises": [
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "I don’t think he is ready.",
-      "answer": "No creo que él esté listo.",
+      "prompt": "I will call you when I arrive.",
+      "answer": "Te llamaré cuando llegue.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 10
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Dudo que ellos ______ (poder) hacerlo.",
-      "answer": "puedan",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I am telling you this so that you know it.",
+      "answer": "Te lo digo para que lo sepas.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 20
     },
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "She doesn’t believe that it is true.",
-      "answer": "Ella no cree que sea verdad.",
+      "prompt": "Finish your work before you leave.",
+      "answer": "Termina tu trabajo antes de que salgas.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 30
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "Quizás tengamos que salir temprano.",
-      "answer": "Maybe we have to leave early.",
+      "prompt": "Aunque sea difícil, voy a intentarlo.",
+      "answer": "Even if it is difficult, I’m going to try.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 40
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "No creo que tú ______ (saber) la respuesta.",
-      "answer": "sepas",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When they finish, we leave.",
+      "answer": "Cuando ellos terminen, salimos.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 50
     },
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "Maybe they are at home.",
-      "answer": "Quizás estén en casa.",
+      "prompt": "She studies so that she can pass the exam.",
+      "answer": "Ella estudia para que pueda aprobar el examen.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 60
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "No pienso que ella venga mañana.",
-      "answer": "I don’t think she is coming tomorrow.",
+      "prompt": "Antes de que tú salgas, habla conmigo.",
+      "answer": "Before you leave, talk with me.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 70
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Tal vez nosotros ______ (estar) equivocados.",
-      "answer": "estemos",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Even if he doesn’t want to go, we will go.",
+      "answer": "Aunque no quiera ir, iremos.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 80
     },
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "I doubt that we have enough money.",
-      "answer": "Dudo que tengamos suficiente dinero.",
+      "prompt": "I’ll visit you when I have time.",
+      "answer": "Te visitaré cuando tenga tiempo.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 90
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "No es seguro que él ______ (querer) participar.",
-      "answer": "quiera",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Aunque no me guste, lo haré.",
+      "answer": "Even if I do not like it, I will do it.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 100

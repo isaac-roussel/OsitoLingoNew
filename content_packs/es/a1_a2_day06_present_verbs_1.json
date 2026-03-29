@@ -1,0 +1,88 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_04_present_actions",
+    "language_code": "es",
+    "title": "04 Everyday Actions",
+    "description": "Build daily present-tense sentences with regular verbs and simple routines.",
+    "level_cefr": "A1",
+    "sort_order": 140,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day06",
+    "theme_code": "a1_a2_04_present_actions",
+    "language_code": "es",
+    "title": "Day 6: Regular Verbs in the Present",
+    "instructions": "Practice common -ar, -er, and -ir verbs in simple present sentences.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I work every day.",
+      "answer": "Trabajo todos los dias.",
+      "explanation": "Trabajar is a regular -ar verb.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "You eat at home.",
+      "answer": "Comes en casa.",
+      "explanation": "Comer is a regular -er verb.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She lives in Madrid.",
+      "answer": "Vive en Madrid.",
+      "explanation": "Vivir is a regular -ir verb.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Nosotros estudiamos espanol.",
+      "answer": "We study Spanish.",
+      "explanation": "Estudiamos can mean study or are studying here.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Ellos trabajan mucho.",
+      "answer": "They work a lot.",
+      "explanation": "Mucho means a lot.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We live with our family.",
+      "answer": "Vivimos con nuestra familia.",
+      "explanation": "Vivimos is the nosotros form.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They eat in the cafeteria.",
+      "answer": "Comen en la cafeteria.",
+      "explanation": "Comen is the ellos form.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I study at night.",
+      "answer": "Estudio por la noche.",
+      "answer_alt": "Estudio en la noche.",
+      "explanation": "Por la noche is very common.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_03_family",
+    "language_code": "es",
+    "title": "03 Family and People",
+    "description": "Learn family words, possessives, and simple descriptions with ser.",
+    "level_cefr": "A1",
+    "sort_order": 130,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day05",
+    "theme_code": "a1_a2_03_family",
+    "language_code": "es",
+    "title": "Day 5: Family and Possessives",
+    "instructions": "Use family vocabulary and mi, tu, and su in short sentences.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My mother is kind.",
+      "answer": "Mi madre es amable.",
+      "explanation": "Mi means my.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My father is tall.",
+      "answer": "Mi padre es alto.",
+      "explanation": "Use ser for physical description.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Your sister is a student.",
+      "answer": "Tu hermana es estudiante.",
+      "explanation": "Tu means your.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Su hermano trabaja aqui.",
+      "answer": "His brother works here.",
+      "answer_alt": "Her brother works here.|Your brother works here.",
+      "explanation": "Su can mean his, her, your, or their.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Mi familia es pequena.",
+      "answer": "My family is small.",
+      "explanation": "Pequena describes feminine familia.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Our grandparents are funny.",
+      "answer": "Nuestros abuelos son divertidos.",
+      "answer_alt": "Nuestras abuelas son divertidas.",
+      "explanation": "Agreement changes with gender and number.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She is my cousin.",
+      "answer": "Ella es mi prima.",
+      "answer_alt": "El es mi primo.",
+      "explanation": "Prima is female cousin.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They are good people.",
+      "answer": "Ellos son buenas personas.",
+      "answer_alt": "Ellas son buenas personas.",
+      "explanation": "Personas is feminine plural.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

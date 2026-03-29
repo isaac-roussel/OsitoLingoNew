@@ -1,0 +1,89 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_05_irregular_core",
+    "language_code": "es",
+    "title": "05 Irregular Verbs Core",
+    "description": "Strengthen the most important irregular verbs for location, possession, movement, and everyday actions.",
+    "level_cefr": "A1",
+    "sort_order": 150,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day08",
+    "theme_code": "a1_a2_05_irregular_core",
+    "language_code": "es",
+    "title": "Day 8: Ser, Estar, and Ir",
+    "instructions": "Compare ser and estar, then use ir for movement.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I am tired.",
+      "answer": "Estoy cansado.",
+      "answer_alt": "Estoy cansada.",
+      "explanation": "Use estar for temporary states.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She is intelligent.",
+      "answer": "Ella es inteligente.",
+      "explanation": "Use ser for characteristics.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We are at home.",
+      "answer": "Estamos en casa.",
+      "explanation": "Estar is used for location.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "El esta en la oficina.",
+      "answer": "He is in the office.",
+      "explanation": "Location takes estar.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I go to school.",
+      "answer": "Voy a la escuela.",
+      "answer_alt": "Yo voy a la escuela.",
+      "explanation": "Voy is the yo form of ir.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They go to the park.",
+      "answer": "Van al parque.",
+      "explanation": "A + el becomes al.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Somos de Colombia, pero estamos en Texas.",
+      "answer": "We are from Colombia, but we are in Texas.",
+      "explanation": "Ser for origin, estar for location.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Are you at the restaurant?",
+      "answer": "Estas en el restaurante?",
+      "explanation": "Use estar for location.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "theme": {
+    "theme_code": "past_tenses_core",
+    "title": "Spanish Past Tenses Core",
+    "description": "Practice the three main Spanish past tenses: pretérito perfecto, pretérito indefinido, and pretérito imperfecto.",
+    "level_cefr": "B1",
+    "sort_order": 200,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "imperfecto_intro",
+    "theme_code": "past_tenses_core",
+    "title": "Pretérito Imperfecto",
+    "instructions": "Translate the sentences using the pretérito imperfecto to describe past habits or ongoing situations.",
+    "estimated_min": 8,
+    "sort_order": 30,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I used to live in a small town.",
+      "answer": "Vivía en un pueblo pequeño.",
+      "answer_alt": "Yo vivía en un pueblo pequeño.",
+      "explanation": "Vivía expresses a habitual past state.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We were studying Spanish.",
+      "answer": "Estudiábamos español.",
+      "answer_alt": "Nosotros estudiábamos español.",
+      "explanation": "The imperfect describes ongoing past actions.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She always arrived early.",
+      "answer": "Siempre llegaba temprano.",
+      "answer_alt": "Ella siempre llegaba temprano.",
+      "explanation": "Siempre often signals habitual actions with imperfect.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They lived near the park.",
+      "answer": "Vivían cerca del parque.",
+      "answer_alt": "Ellos vivían cerca del parque.",
+      "explanation": "Vivían describes a past ongoing condition.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I read a lot when I was a child.",
+      "answer": "Leía mucho cuando era niño.",
+      "answer_alt": "Yo leía mucho cuando era niño.",
+      "explanation": "Leía describes repeated action in the past.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We were eating dinner.",
+      "answer": "Comíamos la cena.",
+      "answer_alt": "Nosotros comíamos la cena.",
+      "explanation": "The imperfect can describe actions in progress.",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He worked in a restaurant.",
+      "answer": "Trabajaba en un restaurante.",
+      "answer_alt": "Él trabajaba en un restaurante.",
+      "explanation": "Trabajaba indicates a past habitual job.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "You always asked questions.",
+      "answer": "Siempre preguntabas.",
+      "answer_alt": "Tú siempre preguntabas.",
+      "explanation": "Preguntabas shows repeated action in the past.",
+      "difficulty": 1,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They watched television every night.",
+      "answer": "Miraban la televisión cada noche.",
+      "answer_alt": "Ellos miraban la televisión cada noche.",
+      "explanation": "Cada noche suggests habitual action.",
+      "difficulty": 1,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We had a big house.",
+      "answer": "Teníamos una casa grande.",
+      "answer_alt": "Nosotros teníamos una casa grande.",
+      "explanation": "Teníamos describes a past state or situation.",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}

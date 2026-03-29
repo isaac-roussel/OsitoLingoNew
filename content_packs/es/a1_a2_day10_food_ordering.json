@@ -1,0 +1,89 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_06_food",
+    "language_code": "es",
+    "title": "06 Food and Ordering",
+    "description": "Talk about food preferences and order simple meals in a restaurant.",
+    "level_cefr": "A1",
+    "sort_order": 160,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day10",
+    "theme_code": "a1_a2_06_food",
+    "language_code": "es",
+    "title": "Day 10: Food, Likes, and Ordering",
+    "instructions": "Use me gusta and order common foods politely.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I like coffee.",
+      "answer": "Me gusta el cafe.",
+      "explanation": "Me gusta is used with singular nouns and infinitives.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I do not like milk.",
+      "answer": "No me gusta la leche.",
+      "explanation": "Place no before me gusta.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I want water, please.",
+      "answer": "Quiero agua, por favor.",
+      "explanation": "A simple restaurant request.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "For me, a coffee.",
+      "answer": "Para mi, un cafe.",
+      "explanation": "A natural ordering phrase.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "La cuenta, por favor.",
+      "answer": "The bill, please.",
+      "answer_alt": "The check, please.",
+      "explanation": "A must-know restaurant phrase.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Quiero una mesa para dos.",
+      "answer": "I want a table for two.",
+      "answer_alt": "I would like a table for two.",
+      "explanation": "Useful for entering a restaurant.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Do you have chicken?",
+      "answer": "Tienen pollo?",
+      "explanation": "Use the plural they form for polite service contexts.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The food is very good.",
+      "answer": "La comida esta muy buena.",
+      "explanation": "Estar is common for how food tastes right now.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

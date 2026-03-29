@@ -1,0 +1,32 @@
+{
+  "theme": {
+    "theme_code": "future",
+    "title": "Future Tense",
+    "sort_order": 1,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "future_b1_l1",
+    "theme_code": "future",
+    "title": "Future - B1",
+    "sort_order": 2,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "mcq",
+      "prompt": "Mañana trabajaré más tiempo porque tengo mucho que hacer.",
+      "answer": "Tomorrow I will work longer because I have a lot to do."
+    },
+    {
+      "exercise_type": "mcq",
+      "prompt": "Cuando termine el proyecto, descansaré un poco.",
+      "answer": "When I finish the project, I will rest a little."
+    },
+    {
+      "exercise_type": "mcq",
+      "prompt": "El próximo verano visitaremos a nuestros amigos en México.",
+      "answer": "Next summer we will visit our friends in Mexico."
+    }
+  ]
+}

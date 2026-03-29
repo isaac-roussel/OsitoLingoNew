@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "future_conditional",
+    "title": "Future and Conditional",
+    "description": "Learn how to talk about the future and hypothetical situations",
+    "level_cefr": "B1",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "future_simple",
+    "theme_code": "future_conditional",
+    "title": "Simple Future",
+    "instructions": "Translate using the simple future tense",
+    "estimated_min": 10,
+    "sort_order": 20,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I will eat later",
+      "answer": "comeré más tarde",
+      "explanation": "future endings",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We will study tomorrow",
+      "answer": "estudiaremos mañana",
+      "explanation": "emos ending",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She will call you",
+      "answer": "te llamará",
+      "explanation": "pronoun placement",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They will travel soon",
+      "answer": "viajarán pronto",
+      "explanation": "án ending",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I will buy it",
+      "answer": "lo compraré",
+      "explanation": "direct object",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He will explain everything",
+      "answer": "explicará todo",
+      "explanation": "regular",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We will see you",
+      "answer": "te veremos",
+      "explanation": "pronoun",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I will tell you",
+      "answer": "te diré",
+      "explanation": "irregular",
+      "difficulty": 3,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She will open it",
+      "answer": "lo abrirá",
+      "explanation": "direct object",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They will learn a lot",
+      "answer": "aprenderán mucho",
+      "explanation": "regular",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}

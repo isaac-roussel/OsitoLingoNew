@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "requests_permission",
+    "title": "Let Me… Expressions",
+    "description": "Practice Spanish phrases used to politely request permission or offer to do something.",
+    "level_cefr": "A2",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "let_me_day1",
+    "theme_code": "requests_permission",
+    "title": "Let Me – Basic Requests",
+    "instructions": "Translate the sentences using 'déjame'.",
+    "estimated_min": 8,
+    "sort_order": 10,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me do this.",
+      "answer": "Déjame hacer esto",
+      "explanation": "Déjame + infinitive expresses 'let me'.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me see.",
+      "answer": "Déjame ver",
+      "explanation": "Ver means 'to see'.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me try.",
+      "answer": "Déjame intentar",
+      "explanation": "Intentar means 'to try'.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me explain.",
+      "answer": "Déjame explicar",
+      "explanation": "Explicar means 'to explain'.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me help.",
+      "answer": "Déjame ayudar",
+      "explanation": "Ayudar means 'to help'.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me think.",
+      "answer": "Déjame pensar",
+      "explanation": "Pensar means 'to think'.",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me check.",
+      "answer": "Déjame comprobar",
+      "explanation": "Comprobar means 'to check'.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me ask.",
+      "answer": "Déjame preguntar",
+      "explanation": "Preguntar means 'to ask'.",
+      "difficulty": 1,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me read.",
+      "answer": "Déjame leer",
+      "explanation": "Leer means 'to read'.",
+      "difficulty": 1,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me look.",
+      "answer": "Déjame mirar",
+      "explanation": "Mirar means 'to look'.",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "theme": {
+    "theme_code": "korean_basics_a1",
+    "language_code": "ko",
+    "title": "Basic Words",
+    "description": "Starter Korean A1 vocabulary with everyday essentials.",
+    "level_cefr": "A1",
+    "sort_order": 100,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "korean_basics_a1_l01",
+    "theme_code": "korean_basics_a1",
+    "language_code": "ko",
+    "title": "Basic Words 1",
+    "instructions": "intro Korean words and polite basics",
+    "estimated_min": 8,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Hello.",
+      "answer": "안녕하세요",
+      "answer_alt": "안녕하세요.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Yes.",
+      "answer": "네",
+      "answer_alt": "예",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "No.",
+      "answer": "아니요",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Thank you.",
+      "answer": "감사합니다",
+      "answer_alt": "고맙습니다",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Sorry.",
+      "answer": "죄송합니다",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Water.",
+      "answer": "물",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Rice.",
+      "answer": "밥",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Person.",
+      "answer": "사람",
+      "difficulty": 1,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Teacher.",
+      "answer": "선생님",
+      "difficulty": 1,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Friend.",
+      "answer": "친구",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}

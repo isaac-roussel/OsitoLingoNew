@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "past_tense_expanded",
+    "title": "Expanded Past Tenses",
+    "description": "Practice longer sentences using Spanish past tenses including pretérito perfecto, indefinido, and imperfecto.",
+    "level_cefr": "B1",
+    "sort_order": 40,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "past_expanded_03",
+    "theme_code": "past_tense_expanded",
+    "title": "Stories and Memories",
+    "instructions": "Translate the narrative sentences into Spanish.",
+    "estimated_min": 10,
+    "sort_order": 30,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When I was a child my grandfather often told me stories about his adventures at sea.",
+      "answer": "Cuando era niño mi abuelo a menudo me contaba historias sobre sus aventuras en el mar",
+      "explanation": "Imperfect used for habitual storytelling.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "One evening he showed me an old map that he had kept for many years.",
+      "answer": "Una noche me mostró un mapa antiguo que había guardado por muchos años",
+      "explanation": "Indefinido main action with pluscuamperfecto earlier action.",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "While he was explaining the map I imagined distant islands and hidden treasures.",
+      "answer": "Mientras explicaba el mapa imaginaba islas lejanas y tesoros escondidos",
+      "explanation": "Two simultaneous imperfect actions.",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Later we walked outside and looked at the stars together in silence.",
+      "answer": "Más tarde caminamos afuera y miramos las estrellas juntos en silencio",
+      "explanation": "Completed narrative actions in indefinido.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I have always remembered that night because it inspired my love of adventure.",
+      "answer": "Siempre he recordado esa noche porque inspiró mi amor por la aventura",
+      "explanation": "Perfect tense describes ongoing memory.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "As we were returning to the house a cold wind began to blow from the ocean.",
+      "answer": "Mientras regresábamos a la casa un viento frío comenzó a soplar desde el océano",
+      "explanation": "Imperfect interrupted by indefinido.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "By the time we entered the house my grandmother had already prepared dinner.",
+      "answer": "Cuando entramos en la casa mi abuela ya había preparado la cena",
+      "explanation": "Pluscuamperfecto action completed before another past event.",
+      "difficulty": 3,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We ate together and listened carefully while my grandfather continued his story.",
+      "answer": "Comimos juntos y escuchamos atentamente mientras mi abuelo continuaba su historia",
+      "explanation": "Indefinido narrative with imperfect background action.",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "That evening became one of the memories that shaped my childhood.",
+      "answer": "Esa noche se convirtió en uno de los recuerdos que formaron mi infancia",
+      "explanation": "Indefinido describes completed transformation.",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Years later I returned to that same house and remembered everything.",
+      "answer": "Años después regresé a esa misma casa y recordé todo",
+      "explanation": "Indefinido for completed later actions.",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}

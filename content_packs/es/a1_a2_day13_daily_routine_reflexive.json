@@ -1,0 +1,89 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_09_routine",
+    "language_code": "es",
+    "title": "09 Daily Routine",
+    "description": "Talk about everyday routine with basic reflexive verbs and sequencing words.",
+    "level_cefr": "A2",
+    "sort_order": 230,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day13",
+    "theme_code": "a1_a2_09_routine",
+    "language_code": "es",
+    "title": "Day 13: Reflexive Verbs and Sequencing",
+    "instructions": "Describe a daily routine with me, te, se and words like primero and despues.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I wake up at six.",
+      "answer": "Me despierto a las seis.",
+      "explanation": "Despertarse is reflexive.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She gets dressed quickly.",
+      "answer": "Se viste rapido.",
+      "explanation": "Vestirse is a common reflexive verb.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We brush our teeth.",
+      "answer": "Nos cepillamos los dientes.",
+      "explanation": "Use the article, not a possessive, for body parts.",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Despues me ducho.",
+      "answer": "Afterward I shower.",
+      "answer_alt": "Then I shower.",
+      "explanation": "Despues helps sequence actions.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Primero desayunamos, luego trabajamos.",
+      "answer": "First we eat breakfast, then we work.",
+      "explanation": "Primero and luego organize a routine.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They go to bed late.",
+      "answer": "Se acuestan tarde.",
+      "explanation": "Acostarse is another common reflexive verb.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I wash my face.",
+      "answer": "Me lavo la cara.",
+      "explanation": "Again, use the article with body parts.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Then I go to work.",
+      "answer": "Despues voy al trabajo.",
+      "answer_alt": "Luego voy al trabajo.",
+      "explanation": "A sequencing phrase plus ir.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

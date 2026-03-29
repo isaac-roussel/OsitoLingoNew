@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "reflexive_present",
+    "title": "Reflexive Verbs - Present Tense",
+    "description": "Practice common reflexive verbs in the present tense across daily routines, time expressions, and longer real-life sentences.",
+    "level_cefr": "A2",
+    "sort_order": 210,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "reflexive_present_03_l01",
+    "theme_code": "reflexive_present",
+    "title": "Reflexive in Context",
+    "instructions": "Translate longer sentences using reflexive verbs.",
+    "estimated_min": 15,
+    "sort_order": 30,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I wake up early because I have to work.",
+      "answer": "Me despierto temprano porque tengo que trabajar.",
+      "explanation": "Clause combo.",
+      "difficulty": 3,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She gets dressed before leaving the house.",
+      "answer": "Se viste antes de salir de la casa.",
+      "explanation": "Antes de + infinitive.",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We go to bed late when we watch movies.",
+      "answer": "Nos acostamos tarde cuando vemos peliculas.",
+      "explanation": "Cuando clause.",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They sit down and start eating.",
+      "answer": "Se sientan y empiezan a comer.",
+      "explanation": "Two verbs.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I wash my hands because they are dirty.",
+      "answer": "Me lavo las manos porque estan sucias.",
+      "explanation": "Agreement.",
+      "difficulty": 3,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "You get ready before going out.",
+      "answer": "Te preparas antes de salir.",
+      "explanation": "Salir usage.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He shaves when he has time.",
+      "answer": "Se afeita cuando tiene tiempo.",
+      "explanation": "Simple clause.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We brush our teeth after eating dinner.",
+      "answer": "Nos cepillamos los dientes despues de cenar.",
+      "explanation": "Despues de.",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They go to bed because they are tired.",
+      "answer": "Se acuestan porque estan cansados.",
+      "explanation": "Estar usage.",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I sit down to relax after work.",
+      "answer": "Me siento para relajarme despues del trabajo.",
+      "explanation": "Para + infinitive.",
+      "difficulty": 3,
+      "sort_order": 100
+    }
+  ]
+}

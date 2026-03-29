@@ -1,0 +1,87 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_02_time",
+    "language_code": "es",
+    "title": "02 Numbers, Time, and Dates",
+    "description": "Practice numbers, dates, time expressions, and hay for basic descriptions.",
+    "level_cefr": "A1",
+    "sort_order": 120,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day03",
+    "theme_code": "a1_a2_02_time",
+    "language_code": "es",
+    "title": "Day 3: Numbers, Days, and Months",
+    "instructions": "Count, say the day, and talk about simple dates.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "One, two, three.",
+      "answer": "Uno, dos, tres.",
+      "explanation": "Basic counting sequence.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Ten books.",
+      "answer": "Diez libros.",
+      "explanation": "Diez means ten.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Today is Monday.",
+      "answer": "Hoy es lunes.",
+      "explanation": "Use hoy for today.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Tomorrow is Tuesday.",
+      "answer": "Manana es martes.",
+      "explanation": "Manana means tomorrow in this context.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Enero es el primer mes.",
+      "answer": "January is the first month.",
+      "explanation": "Enero means January.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My birthday is in July.",
+      "answer": "Mi cumpleanos es en julio.",
+      "explanation": "En marks the month.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "There are twenty students.",
+      "answer": "Hay veinte estudiantes.",
+      "explanation": "Hay means there is or there are.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Hay una clase en marzo.",
+      "answer": "There is a class in March.",
+      "explanation": "Hay stays the same for singular and plural.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

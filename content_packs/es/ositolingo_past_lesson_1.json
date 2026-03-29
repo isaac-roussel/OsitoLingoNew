@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "past_tense_expanded",
+    "title": "Expanded Past Tenses",
+    "description": "Practice longer sentences using Spanish past tenses including pretérito perfecto, indefinido, and imperfecto.",
+    "level_cefr": "B1",
+    "sort_order": 40,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "past_expanded_01",
+    "theme_code": "past_tense_expanded",
+    "title": "Daily Life in the Past",
+    "instructions": "Translate the longer sentences into Spanish using the appropriate past tense.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Yesterday I walked through the old neighborhood where I used to play with my friends when I was a child.",
+      "answer": "Ayer caminé por el viejo barrio donde jugaba con mis amigos cuando era niño",
+      "explanation": "Uses indefinido for the completed action caminé and imperfect for habitual past actions jugaba and era.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Last night we watched a movie that we had wanted to see for many years.",
+      "answer": "Anoche vimos una película que habíamos querido ver por muchos años",
+      "explanation": "Indefinido vimos for the finished action and pluscuamperfecto habíamos querido.",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When I arrived at the restaurant my friends were already sitting at the table and talking.",
+      "answer": "Cuando llegué al restaurante mis amigos ya estaban sentados en la mesa y hablaban",
+      "explanation": "Indefinido llegué marks the interrupting action while imperfect describes the ongoing situation.",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We traveled through three different cities before we finally found the small village on the coast.",
+      "answer": "Viajamos por tres ciudades diferentes antes de que finalmente encontramos el pequeño pueblo en la costa",
+      "explanation": "Indefinido viajamos and encontramos describe completed past events.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "While the children were playing in the park their parents were talking quietly on a nearby bench.",
+      "answer": "Mientras los niños jugaban en el parque sus padres hablaban tranquilamente en un banco cercano",
+      "explanation": "Imperfect tense describes two ongoing simultaneous actions.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I have visited that museum several times because I really liked the ancient paintings.",
+      "answer": "He visitado ese museo varias veces porque me gustaban mucho las pinturas antiguas",
+      "explanation": "Perfect tense he visitado for life experience and imperfect gustaban for general feeling.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When we were young we often stayed up late and told stories around the fire.",
+      "answer": "Cuando éramos jóvenes a menudo nos quedábamos despiertos hasta tarde y contábamos historias alrededor del fuego",
+      "explanation": "Imperfect used for habitual past actions.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The storm started suddenly while we were walking along the beach.",
+      "answer": "La tormenta empezó de repente mientras caminábamos por la playa",
+      "explanation": "Indefinido empezó interrupts the ongoing imperfect action caminábamos.",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My grandmother told us stories about her childhood whenever we visited her house.",
+      "answer": "Mi abuela nos contaba historias sobre su infancia cada vez que visitábamos su casa",
+      "explanation": "Imperfect expresses repeated past actions.",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "By the time the train arrived we had already waited for almost an hour.",
+      "answer": "Cuando llegó el tren ya habíamos esperado casi una hora",
+      "explanation": "Pluscuamperfecto habíamos esperado describes an action completed before another past event.",
+      "difficulty": 3,
+      "sort_order": 100
+    }
+  ]
+}

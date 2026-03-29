@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "past_tense_expanded",
+    "title": "Expanded Past Tenses",
+    "description": "Practice longer sentences using Spanish past tenses including pretérito perfecto, indefinido, and imperfecto.",
+    "level_cefr": "B1",
+    "sort_order": 40,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "past_expanded_02",
+    "theme_code": "past_tense_expanded",
+    "title": "Travel Stories",
+    "instructions": "Translate the longer travel related sentences into Spanish.",
+    "estimated_min": 10,
+    "sort_order": 20,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "During our trip we stayed in a small hotel that overlooked the mountains.",
+      "answer": "Durante nuestro viaje nos quedamos en un pequeño hotel que daba a las montañas",
+      "explanation": "Indefinido nos quedamos for completed event and imperfect daba.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "While we were exploring the old city we discovered a quiet café near the cathedral.",
+      "answer": "Mientras explorábamos la ciudad vieja descubrimos un café tranquilo cerca de la catedral",
+      "explanation": "Imperfect ongoing action and indefinido discovery.",
+      "difficulty": 2,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I had never seen such beautiful mountains before I traveled to that region.",
+      "answer": "Nunca había visto montañas tan hermosas antes de que viajé a esa región",
+      "explanation": "Pluscuamperfecto for the earlier experience.",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Every morning the fishermen returned to the harbor while the sun was rising.",
+      "answer": "Cada mañana los pescadores regresaban al puerto mientras salía el sol",
+      "explanation": "Imperfect describes repeated past scene.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Last summer we drove across the country and visited many historic towns.",
+      "answer": "El verano pasado condujimos por todo el país y visitamos muchos pueblos históricos",
+      "explanation": "Indefinido for finished travel events.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When the guide finished explaining the history we walked through the ancient ruins.",
+      "answer": "Cuando el guía terminó de explicar la historia caminamos por las ruinas antiguas",
+      "explanation": "Sequential completed actions in indefinido.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We were looking for the museum for almost an hour before someone helped us.",
+      "answer": "Estábamos buscando el museo por casi una hora antes de que alguien nos ayudó",
+      "explanation": "Imperfect progressive situation interrupted by a completed action.",
+      "difficulty": 3,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I have taken many photos during this trip because the landscapes are incredible.",
+      "answer": "He tomado muchas fotos durante este viaje porque los paisajes son increíbles",
+      "explanation": "Perfect tense describing recent experience.",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When we finally reached the summit we were completely exhausted.",
+      "answer": "Cuando finalmente alcanzamos la cima estábamos completamente agotados",
+      "explanation": "Indefinido for reaching the summit and imperfect for the state.",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Before we left the city we bought souvenirs for our friends and family.",
+      "answer": "Antes de salir de la ciudad compramos recuerdos para nuestros amigos y familia",
+      "explanation": "Indefinido describes completed purchase.",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}

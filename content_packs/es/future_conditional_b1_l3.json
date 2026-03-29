@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "future_conditional",
+    "title": "Future and Conditional",
+    "description": "Learn how to talk about the future and hypothetical situations",
+    "level_cefr": "B1",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "future_conditional_b1_l3",
+    "theme_code": "future_conditional",
+    "title": "Conditional Situations",
+    "instructions": "Translate using the conditional in more detailed situations",
+    "estimated_min": 12,
+    "sort_order": 50,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I would travel more often if plane tickets were not so expensive.",
+      "answer": "Viajaría más a menudo si los boletos de avión no fueran tan caros.",
+      "explanation": "conditional with an unreal present condition",
+      "difficulty": 3,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We would help you right away if we knew how to solve the problem.",
+      "answer": "Te ayudaríamos de inmediato si supiéramos cómo resolver el problema.",
+      "explanation": "conditional with indirect object pronoun",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She would accept the job, but she would prefer to work from home.",
+      "answer": "Ella aceptaría el trabajo, pero preferiría trabajar desde casa.",
+      "explanation": "two conditional verbs in one sentence",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "If I had more experience, I would apply for that position at the international company.",
+      "answer": "Si tuviera más experiencia, solicitaría ese puesto en la empresa internacional.",
+      "explanation": "conditional with professional context",
+      "difficulty": 3,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They would buy a house near the beach if they could work remotely all year.",
+      "answer": "Comprarían una casa cerca de la playa si pudieran trabajar a distancia todo el año.",
+      "explanation": "conditional with longer complement",
+      "difficulty": 3,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Would you tell her the truth even if she got upset?",
+      "answer": "¿Le dirías la verdad aunque se molestara?",
+      "explanation": "conditional question with contrast",
+      "difficulty": 3,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I would not change anything because the plan seems quite reasonable to me.",
+      "answer": "No cambiaría nada porque el plan me parece bastante razonable.",
+      "explanation": "negative conditional with opinion",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My parents would be calmer if my brother answered their messages more often.",
+      "answer": "Mis padres estarían más tranquilos si mi hermano respondiera a sus mensajes más a menudo.",
+      "explanation": "conditional with emotional state",
+      "difficulty": 3,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We would stay longer, although tomorrow we would have to get up very early.",
+      "answer": "Nos quedaríamos más tiempo, aunque mañana tendríamos que levantarnos muy temprano.",
+      "explanation": "conditional with contrast and obligation",
+      "difficulty": 3,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "If the museum were closer, the children would visit it more frequently.",
+      "answer": "Si el museo estuviera más cerca, los niños lo visitarían con más frecuencia.",
+      "explanation": "conditional with direct object pronoun",
+      "difficulty": 3,
+      "sort_order": 100
+    }
+  ]
+}

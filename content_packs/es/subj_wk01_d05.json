@@ -34,9 +34,9 @@
       "sort_order": 20
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "No hay nadie que ______ (poder) ayudarte.",
-      "answer": "pueda",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "There is nobody who can help you.",
+      "answer": "No hay nadie que pueda ayudarte.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 30
@@ -66,9 +66,9 @@
       "sort_order": 60
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Necesito un médico que ______ (hablar) español.",
-      "answer": "hable",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Necesito un médico que hable español.",
+      "answer": "I need a doctor who speaks Spanish.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 70
@@ -82,9 +82,9 @@
       "sort_order": 80
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Quiero algo que me ______ (hacer) feliz.",
-      "answer": "haga",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I want something that makes me happy.",
+      "answer": "Quiero algo que me haga feliz.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 90

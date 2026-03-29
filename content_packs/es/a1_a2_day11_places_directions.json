@@ -1,0 +1,88 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_07_places",
+    "language_code": "es",
+    "title": "07 Places and Directions",
+    "description": "Describe locations in town and ask where things are with estar and prepositions.",
+    "level_cefr": "A2",
+    "sort_order": 210,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day11",
+    "theme_code": "a1_a2_07_places",
+    "language_code": "es",
+    "title": "Day 11: Places in the City",
+    "instructions": "Locate common places and ask for directions with estar, en, a, and de.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Where is the bank?",
+      "answer": "Donde esta el banco?",
+      "explanation": "A core directions question.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The pharmacy is on Main Street.",
+      "answer": "La farmacia esta en la calle Main.",
+      "answer_alt": "La farmacia esta en la calle principal.",
+      "explanation": "Use estar for location.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I am going to the park.",
+      "answer": "Voy al parque.",
+      "explanation": "A plus el becomes al.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "El restaurante esta cerca de la plaza.",
+      "answer": "The restaurant is near the plaza.",
+      "explanation": "Cerca de means near.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "La escuela esta en frente del museo.",
+      "answer": "The school is in front of the museum.",
+      "explanation": "En frente de is a useful location phrase.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The hotel is far from the airport.",
+      "answer": "El hotel esta lejos del aeropuerto.",
+      "explanation": "Lejos de means far from.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "There is a cafe next to the station.",
+      "answer": "Hay un cafe al lado de la estacion.",
+      "explanation": "Al lado de means next to.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Where are you from?",
+      "answer": "De donde eres?",
+      "explanation": "De introduces origin.",
+      "difficulty": 1,
+      "sort_order": 80
+    }
+  ]
+}

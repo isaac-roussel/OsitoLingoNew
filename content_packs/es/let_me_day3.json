@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "requests_permission",
+    "title": "Let Me… Expressions",
+    "description": "Practice Spanish phrases used to politely request permission or offer to do something.",
+    "level_cefr": "A2",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "let_me_day3",
+    "theme_code": "requests_permission",
+    "title": "Let Me – Polite Forms",
+    "instructions": "Translate the sentences using 'permíteme' or longer 'déjame' expressions.",
+    "estimated_min": 8,
+    "sort_order": 30,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Allow me to explain.",
+      "answer": "Permíteme explicar",
+      "explanation": "Permíteme is a formal version of 'let me'.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Allow me to help.",
+      "answer": "Permíteme ayudar",
+      "explanation": "Permíteme + infinitive expresses a polite offer.",
+      "difficulty": 2,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Allow me to ask a question.",
+      "answer": "Permíteme hacer una pregunta",
+      "explanation": "Hacer una pregunta means 'ask a question'.",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me explain the problem.",
+      "answer": "Déjame explicar el problema",
+      "explanation": "Adds a noun phrase after the verb.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me open the door.",
+      "answer": "Déjame abrir la puerta",
+      "explanation": "Abrir means 'to open'.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me close the window.",
+      "answer": "Déjame cerrar la ventana",
+      "explanation": "Cerrar means 'to close'.",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me think about it.",
+      "answer": "Déjame pensarlo",
+      "explanation": "Pensarlo means 'think about it'.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Let me try again.",
+      "answer": "Déjame intentar otra vez",
+      "explanation": "Otra vez means 'again'.",
+      "difficulty": 1,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Allow me to explain the situation.",
+      "answer": "Permíteme explicar la situación",
+      "explanation": "Situación means 'situation'.",
+      "difficulty": 3,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Allow me to help with that.",
+      "answer": "Permíteme ayudar con eso",
+      "explanation": "Con eso means 'with that'.",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}

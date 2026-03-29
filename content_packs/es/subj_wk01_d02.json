@@ -8,91 +8,92 @@
     "is_active": 1
   },
   "lesson": {
-    "lesson_code": "subj_wk01_d04",
+    "lesson_code": "subj_wk01_d02",
     "theme_code": "subjunctive_intensive_wk01",
-    "title": "Subjunctive with Conjunctions",
-    "instructions": "cuando (future), para que, antes de que, aunque",
+    "title": "Doubt & Uncertainty",
+    "instructions": "dudar que, no creer que, quizás, tal vez",
     "estimated_min": 10,
-    "sort_order": 40,
+    "sort_order": 20,
     "is_active": 1
   },
   "exercises": [
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "I will call you when I arrive.",
-      "answer": "Te llamaré cuando llegue.",
+      "prompt": "I don’t think he is ready.",
+      "answer": "No creo que él esté listo.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 10
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Te lo digo para que lo ______ (saber).",
-      "answer": "sepas",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I doubt that they can do it.",
+      "answer": "Dudo que ellos puedan hacerlo.",
+      "answer_alt": "Dudo que puedan hacerlo.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 20
     },
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "Finish your work before you leave.",
-      "answer": "Termina tu trabajo antes de que salgas.",
+      "prompt": "She doesn’t believe that it is true.",
+      "answer": "Ella no cree que sea verdad.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 30
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "Aunque sea difícil, voy a intentarlo.",
-      "answer": "Even if it is difficult, I’m going to try.",
+      "prompt": "Quizás tengamos que salir temprano.",
+      "answer": "Maybe we have to leave early.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 40
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Cuando ellos ______ (terminar), salimos.",
-      "answer": "terminen",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No creo que tú sepas la respuesta.",
+      "answer": "I don't think you know the answer.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 50
     },
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "She studies so that she can pass the exam.",
-      "answer": "Ella estudia para que pueda aprobar el examen.",
+      "prompt": "Maybe they are at home.",
+      "answer": "Quizás estén en casa.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 60
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Antes de que tú ______ (salir), habla conmigo.",
-      "answer": "salgas",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No pienso que ella venga mañana.",
+      "answer": "I don’t think she is coming tomorrow.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 70
     },
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "Even if he doesn’t want to go, we will go.",
-      "answer": "Aunque no quiera ir, iremos.",
+      "prompt": "Maybe we are wrong.",
+      "answer": "Tal vez nosotros estemos equivocados.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 80
     },
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "I’ll visit you when I have time.",
-      "answer": "Te visitaré cuando tenga tiempo.",
+      "prompt": "I doubt that we have enough money.",
+      "answer": "Dudo que tengamos suficiente dinero.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 90
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Aunque no me ______ (gustar), lo haré.",
-      "answer": "guste",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No es seguro que él quiera participar.",
+      "answer": "It is not certain that he wants to participate.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 100

@@ -1,0 +1,88 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_10_questions_negation",
+    "language_code": "es",
+    "title": "10 Questions and Negation",
+    "description": "Ask common information questions and respond with no, nunca, and tampoco.",
+    "level_cefr": "A2",
+    "sort_order": 240,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day14",
+    "theme_code": "a1_a2_10_questions_negation",
+    "language_code": "es",
+    "title": "Day 14: Question Words and Negation",
+    "instructions": "Ask and answer practical questions using que, cuando, por que, no, nunca, and tampoco.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "What do you want?",
+      "answer": "Que quieres?",
+      "explanation": "Que means what.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When is the class?",
+      "answer": "Cuando es la clase?",
+      "explanation": "Cuando means when.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Why are you here?",
+      "answer": "Por que estas aqui?",
+      "explanation": "Por que means why in a question.",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I do not understand.",
+      "answer": "No entiendo.",
+      "explanation": "Place no before the verb.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Nunca trabajo los domingos.",
+      "answer": "I never work on Sundays.",
+      "explanation": "Nunca means never.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No me gusta el cafe tampoco.",
+      "answer": "I do not like coffee either.",
+      "explanation": "Tampoco means neither or either in negative statements.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Where do they live?",
+      "answer": "Donde viven?",
+      "explanation": "Donde asks about place.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I do not have time today either.",
+      "answer": "Hoy tampoco tengo tiempo.",
+      "answer_alt": "No tengo tiempo hoy tampoco.",
+      "explanation": "Tampoco can connect this sentence to a previous negative idea.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

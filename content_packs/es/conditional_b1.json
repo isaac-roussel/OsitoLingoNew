@@ -1,0 +1,32 @@
+{
+  "theme": {
+    "theme_code": "conditional",
+    "title": "Conditional Tense",
+    "sort_order": 2,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "conditional_b1_l1",
+    "theme_code": "conditional",
+    "title": "Conditional - B1",
+    "sort_order": 2,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "mcq",
+      "prompt": "Si tuviera más tiempo, leería más libros.",
+      "answer": "If I had more time, I would read more books."
+    },
+    {
+      "exercise_type": "mcq",
+      "prompt": "Nos gustaría viajar más si fuera posible.",
+      "answer": "We would like to travel more if it were possible."
+    },
+    {
+      "exercise_type": "mcq",
+      "prompt": "Él compraría la casa si tuviera suficiente dinero.",
+      "answer": "He would buy the house if he had enough money."
+    }
+  ]
+}

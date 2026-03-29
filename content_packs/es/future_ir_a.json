@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "future_conditional",
+    "title": "Future and Conditional",
+    "description": "Learn how to talk about the future and hypothetical situations",
+    "level_cefr": "B1",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "future_ir_a",
+    "theme_code": "future_conditional",
+    "title": "Future with ir + a",
+    "instructions": "Translate the sentences using ir + a + infinitive",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I am going to eat now",
+      "answer": "voy a comer ahora",
+      "explanation": "Use ir + a + infinitive",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We are going to study tonight",
+      "answer": "vamos a estudiar esta noche",
+      "explanation": "vamos a + infinitive",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She is going to call you later",
+      "answer": "va a llamarte más tarde",
+      "explanation": "attach pronoun",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They are going to travel tomorrow",
+      "answer": "van a viajar mañana",
+      "explanation": "future construction",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I am going to buy food",
+      "answer": "voy a comprar comida",
+      "explanation": "voy a",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He is going to explain the problem",
+      "answer": "va a explicar el problema",
+      "explanation": "va a",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We are going to see the movie",
+      "answer": "vamos a ver la película",
+      "explanation": "vamos a",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I am going to tell you the truth",
+      "answer": "voy a decirte la verdad",
+      "explanation": "attach pronoun",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She is going to open the door",
+      "answer": "va a abrir la puerta",
+      "explanation": "regular",
+      "difficulty": 1,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They are going to learn Spanish",
+      "answer": "van a aprender español",
+      "explanation": "regular",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}

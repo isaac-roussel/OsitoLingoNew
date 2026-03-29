@@ -26,9 +26,9 @@
       "sort_order": 10
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Me molesta que ellos no ______ (escuchar).",
-      "answer": "escuchen",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "It bothers me that they do not listen.",
+      "answer": "Me molesta que ellos no escuchen.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 20
@@ -50,9 +50,9 @@
       "sort_order": 40
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Me sorprende que tú no ______ (entender).",
-      "answer": "entiendas",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Me sorprende que tú no entiendas.",
+      "answer": "It surprises me that you do not understand.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 50
@@ -66,9 +66,9 @@
       "sort_order": 60
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Es mejor que nosotros ______ (decidir) ahora.",
-      "answer": "decidamos",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "It is better that we decide now.",
+      "answer": "Es mejor que nosotros decidamos ahora.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 70
@@ -90,9 +90,9 @@
       "sort_order": 90
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Es posible que él no ______ (tener) razón.",
-      "answer": "tenga",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Es posible que él no tenga razón.",
+      "answer": "It is possible that he is not right.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 100

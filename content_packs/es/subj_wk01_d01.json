@@ -34,9 +34,9 @@
       "sort_order": 20
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Es necesario que tú ______ (trabajar) más.",
-      "answer": "trabajes",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Es necesario que tú trabajes más.",
+      "answer": "It is necessary that you work more.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 30
@@ -50,9 +50,9 @@
       "sort_order": 40
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Quiero que él ______ (ir) conmigo.",
-      "answer": "vaya",
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Quiero que él vaya conmigo.",
+      "answer": "I want him to go with me.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 50
@@ -74,9 +74,9 @@
       "sort_order": 70
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Espero que ustedes ______ (tener) tiempo.",
-      "answer": "tengan",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I hope you all have time.",
+      "answer": "Espero que ustedes tengan tiempo.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 80
@@ -90,9 +90,9 @@
       "sort_order": 90
     },
     {
-      "exercise_type": "fill_blank",
-      "prompt": "Necesitamos que ella ______ (venir) temprano.",
-      "answer": "venga",
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We need her to come early.",
+      "answer": "Necesitamos que ella venga temprano.",
       "explanation": "",
       "difficulty": 2,
       "sort_order": 100

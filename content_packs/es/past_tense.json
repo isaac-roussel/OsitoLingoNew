@@ -1,0 +1,111 @@
+{
+  "theme": {
+    "theme_code": "past_tenses_core",
+    "title": "Spanish Past Tenses Core",
+    "description": "Practice the three main Spanish past tenses: pretérito perfecto, pretérito indefinido, and pretérito imperfecto.",
+    "level_cefr": "B1",
+    "sort_order": 200,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "past_perfecto_intro",
+    "theme_code": "past_tenses_core",
+    "title": "Pretérito Perfecto",
+    "instructions": "Translate the sentences using the pretérito perfecto. Remember that subject pronouns are often optional in Spanish.",
+    "estimated_min": 8,
+    "sort_order": 10,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I have eaten.",
+      "answer": "He comido.",
+      "answer_alt": "Yo he comido.",
+      "explanation": "The pretérito perfecto uses haber + past participle. Subject pronouns are usually omitted.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We have finished the work.",
+      "answer": "Hemos terminado el trabajo.",
+      "answer_alt": "Nosotros hemos terminado el trabajo.",
+      "explanation": "Hemos + participle expresses an action completed recently.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She has visited Spain.",
+      "answer": "Ha visitado España.",
+      "answer_alt": "Ella ha visitado España.",
+      "explanation": "Ha is the third-person singular form of haber.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They have seen the movie.",
+      "answer": "Han visto la película.",
+      "answer_alt": "Ellos han visto la película.",
+      "explanation": "Han + visto forms the present perfect for ellos/ellas.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I have read the book.",
+      "answer": "He leído el libro.",
+      "answer_alt": "Yo he leído el libro.",
+      "explanation": "Leído is the past participle of leer.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We have learned a lot.",
+      "answer": "Hemos aprendido mucho.",
+      "answer_alt": "Nosotros hemos aprendido mucho.",
+      "explanation": "Aprendido is the participle of aprender.",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "You have written a letter.",
+      "answer": "Has escrito una carta.",
+      "answer_alt": "Tú has escrito una carta.",
+      "explanation": "Has is the second-person singular of haber.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We have bought food.",
+      "answer": "Hemos comprado comida.",
+      "answer_alt": "Nosotros hemos comprado comida.",
+      "explanation": "Comprado is the past participle of comprar.",
+      "difficulty": 1,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He has opened the door.",
+      "answer": "Ha abierto la puerta.",
+      "answer_alt": "Él ha abierto la puerta.",
+      "explanation": "Abierto is an irregular past participle.",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We have arrived early.",
+      "answer": "Hemos llegado temprano.",
+      "answer_alt": "Nosotros hemos llegado temprano.",
+      "explanation": "Llegado forms the perfect tense with haber.",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}

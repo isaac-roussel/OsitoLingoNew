@@ -1,0 +1,88 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_02_time",
+    "language_code": "es",
+    "title": "02 Numbers, Time, and Dates",
+    "description": "Practice numbers, dates, time expressions, and hay for basic descriptions.",
+    "level_cefr": "A1",
+    "sort_order": 120,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day04",
+    "theme_code": "a1_a2_02_time",
+    "language_code": "es",
+    "title": "Day 4: Telling Time and Hay",
+    "instructions": "Tell the time and describe what there is in a place.",
+    "estimated_min": 10,
+    "sort_order": 20,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "It is one o'clock.",
+      "answer": "Es la una.",
+      "explanation": "Use singular for one o'clock.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "It is three o'clock.",
+      "answer": "Son las tres.",
+      "explanation": "Use son las for other hours.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "It is six thirty.",
+      "answer": "Son las seis y media.",
+      "explanation": "Y media means half past.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The class is at eight.",
+      "answer": "La clase es a las ocho.",
+      "explanation": "A las introduces the time.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Hay un libro en la mesa.",
+      "answer": "There is a book on the table.",
+      "explanation": "En means on or in depending on context.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Hay dos sillas en la cocina.",
+      "answer": "There are two chairs in the kitchen.",
+      "explanation": "Hay also works for plural nouns.",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "There is a park in my city.",
+      "answer": "Hay un parque en mi ciudad.",
+      "explanation": "A simple hay sentence with place vocabulary.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "There are many people here.",
+      "answer": "Hay muchas personas aqui.",
+      "answer_alt": "Hay mucha gente aqui.",
+      "explanation": "Gente is also very common.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

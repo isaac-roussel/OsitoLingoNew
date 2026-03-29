@@ -1,0 +1,88 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_08_descriptions",
+    "language_code": "es",
+    "title": "08 Describing Things",
+    "description": "Use adjective agreement, colors, and quality words to describe objects and places.",
+    "level_cefr": "A2",
+    "sort_order": 220,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day12",
+    "theme_code": "a1_a2_08_descriptions",
+    "language_code": "es",
+    "title": "Day 12: Adjectives, Colors, and Size",
+    "instructions": "Describe objects with adjective agreement and common descriptive words.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The house is white.",
+      "answer": "La casa es blanca.",
+      "explanation": "Blanca agrees with casa.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The cars are red.",
+      "answer": "Los carros son rojos.",
+      "answer_alt": "Los coches son rojos.",
+      "explanation": "Rojos agrees with a masculine plural noun.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "It is a small table.",
+      "answer": "Es una mesa pequena.",
+      "explanation": "Pequena agrees with mesa.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "El libro azul es bueno.",
+      "answer": "The blue book is good.",
+      "explanation": "Azul does not change here.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Las tiendas son grandes.",
+      "answer": "The stores are big.",
+      "explanation": "Grandes is plural.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The hotel is very modern.",
+      "answer": "El hotel es muy moderno.",
+      "explanation": "A simple quality description.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The shirts are cheap.",
+      "answer": "Las camisas son baratas.",
+      "explanation": "Baratas agrees with feminine plural camisas.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The food is excellent.",
+      "answer": "La comida es excelente.",
+      "explanation": "Excelente does not change.",
+      "difficulty": 1,
+      "sort_order": 80
+    }
+  ]
+}

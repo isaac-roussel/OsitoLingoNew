@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "reflexive_present",
+    "title": "Reflexive Verbs - Present Tense",
+    "description": "Practice common reflexive verbs in the present tense across daily routines, time expressions, and longer real-life sentences.",
+    "level_cefr": "A2",
+    "sort_order": 210,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "reflexive_present_02_l01",
+    "theme_code": "reflexive_present",
+    "title": "Reflexive with Time",
+    "instructions": "Translate using reflexive verbs and time expressions.",
+    "estimated_min": 12,
+    "sort_order": 20,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I wake up at six every day.",
+      "answer": "Me despierto a las seis todos los dias.",
+      "explanation": "Frequency phrase.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She goes to bed at midnight.",
+      "answer": "Se acuesta a la medianoche.",
+      "explanation": "Time expression.",
+      "difficulty": 2,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We get dressed after breakfast.",
+      "answer": "Nos vestimos despues del desayuno.",
+      "explanation": "del = de + el.",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They brush their teeth at night.",
+      "answer": "Se cepillan los dientes por la noche.",
+      "explanation": "Night phrase.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "You shower in the morning.",
+      "answer": "Te duchas por la manana.",
+      "explanation": "Morning phrase.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I sit down after work.",
+      "answer": "Me siento despues del trabajo.",
+      "explanation": "Stem change.",
+      "difficulty": 2,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He shaves every day.",
+      "answer": "Se afeita todos los dias.",
+      "explanation": "Afeitarse.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We wash our hands before eating.",
+      "answer": "Nos lavamos las manos antes de comer.",
+      "explanation": "Antes de + infinitive.",
+      "difficulty": 2,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They go to bed early on weekdays.",
+      "answer": "Se acuestan temprano entre semana.",
+      "explanation": "Weekdays.",
+      "difficulty": 3,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I get ready quickly in the morning.",
+      "answer": "Me preparo rapido por la manana.",
+      "explanation": "Prepararse.",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}

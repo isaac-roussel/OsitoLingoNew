@@ -1,0 +1,101 @@
+{
+  "theme": {
+    "theme_code": "future_conditional",
+    "title": "Future and Conditional",
+    "description": "Learn how to talk about the future and hypothetical situations",
+    "level_cefr": "B1",
+    "sort_order": 10,
+    "is_active": true
+  },
+  "lesson": {
+    "lesson_code": "future_conditional_b1_l2",
+    "theme_code": "future_conditional",
+    "title": "Future Plans in Context",
+    "instructions": "Translate using the future tense in slightly longer sentences",
+    "estimated_min": 12,
+    "sort_order": 40,
+    "is_active": true
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Tomorrow I will finish the report after I speak with my manager.",
+      "answer": "Mañana terminaré el informe después de hablar con mi gerente.",
+      "explanation": "future with a time expression and follow-up action",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Next month we will move to a bigger apartment if we find a good price.",
+      "answer": "El próximo mes nos mudaremos a un apartamento más grande si encontramos un buen precio.",
+      "explanation": "future with a realistic condition",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She will probably call you when she arrives at the station.",
+      "answer": "Ella probablemente te llamará cuando llegue a la estación.",
+      "explanation": "future with probability and time clause",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I will explain everything to you once I understand the problem better.",
+      "answer": "Te explicaré todo una vez que entienda mejor el problema.",
+      "explanation": "future with object pronoun and subordinate clause",
+      "difficulty": 3,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They will visit their grandparents this weekend because they have not seen them for months.",
+      "answer": "Ellos visitarán a sus abuelos este fin de semana porque no los han visto en meses.",
+      "explanation": "future with a reason clause",
+      "difficulty": 3,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We will not make a decision until everyone shares their opinion.",
+      "answer": "No tomaremos una decisión hasta que todos compartan su opinión.",
+      "explanation": "negative future with time clause",
+      "difficulty": 3,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "This summer I will take an intensive course so that I can improve my Spanish.",
+      "answer": "Este verano haré un curso intensivo para poder mejorar mi español.",
+      "explanation": "future with purpose",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The team will present the project on Friday, although they still need to change a few details.",
+      "answer": "El equipo presentará el proyecto el viernes, aunque todavía necesita cambiar algunos detalles.",
+      "explanation": "future with contrast",
+      "difficulty": 3,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Later I will send you the documents that you asked me for this morning.",
+      "answer": "Más tarde te enviaré los documentos que me pediste esta mañana.",
+      "explanation": "future with relative clause and pronoun",
+      "difficulty": 2,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "If everything goes well, we will open the store before the end of the year.",
+      "answer": "Si todo sale bien, abriremos la tienda antes de fin de año.",
+      "explanation": "future in a realistic plan",
+      "difficulty": 2,
+      "sort_order": 100
+    }
+  ]
+}

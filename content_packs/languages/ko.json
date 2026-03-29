@@ -1,0 +1,55 @@
+{
+  "language": {
+    "language_code": "ko",
+    "title": "Korean",
+    "native_title": "한국어",
+    "sort_order": 20,
+    "is_active": 1
+  },
+  "distractors": {
+    "ko": [
+      "저",
+      "너",
+      "우리",
+      "네",
+      "아니요",
+      "여기",
+      "오늘",
+      "내일",
+      "물",
+      "밥",
+      "사람",
+      "친구",
+      "학교",
+      "선생님",
+      "가방",
+      "책",
+      "집",
+      "사랑",
+      "좋아요",
+      "감사합니다"
+    ],
+    "en": [
+      "hello",
+      "yes",
+      "no",
+      "please",
+      "thanks",
+      "sorry",
+      "water",
+      "rice",
+      "person",
+      "teacher",
+      "friend",
+      "book",
+      "school",
+      "bag",
+      "house",
+      "good",
+      "today",
+      "tomorrow",
+      "here",
+      "there"
+    ]
+  }
+}

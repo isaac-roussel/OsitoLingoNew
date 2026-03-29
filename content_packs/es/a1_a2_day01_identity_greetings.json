@@ -1,0 +1,92 @@
+{
+  "theme": {
+    "theme_code": "a1_a2_01_identity",
+    "language_code": "es",
+    "title": "01 Basics and Identity",
+    "description": "Start with greetings, introductions, subject pronouns, and simple ser sentences.",
+    "level_cefr": "A1",
+    "sort_order": 110,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "a1_a2_day01",
+    "theme_code": "a1_a2_01_identity",
+    "language_code": "es",
+    "title": "Day 1: Greetings and Introductions",
+    "instructions": "Say hello, introduce yourself, and identify subject pronouns.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Hello, I am Ana.",
+      "answer": "Hola, soy Ana.",
+      "explanation": "Use soy for I am.",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Good morning.",
+      "answer": "Buenos dias.",
+      "answer_alt": "Buen dia.",
+      "explanation": "A common morning greeting.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "What is your name?",
+      "answer": "Como te llamas?",
+      "answer_alt": "Cual es tu nombre?",
+      "explanation": "Both versions are natural.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My name is Luis.",
+      "answer": "Me llamo Luis.",
+      "answer_alt": "Mi nombre es Luis.",
+      "explanation": "Me llamo is the most common beginner pattern.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Ella es Maria.",
+      "answer": "She is Maria.",
+      "explanation": "Ella means she.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Nosotros somos estudiantes.",
+      "answer": "We are students.",
+      "explanation": "Somos is the nosotros form of ser.",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They are my friends.",
+      "answer": "Ellos son mis amigos.",
+      "answer_alt": "Ellas son mis amigas.",
+      "explanation": "Use son with ellos or ellas.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Nice to meet you.",
+      "answer": "Mucho gusto.",
+      "answer_alt": "Encantado.|Encantada.",
+      "explanation": "A basic introduction phrase.",
+      "difficulty": 1,
+      "sort_order": 80
+    }
+  ]
+}
