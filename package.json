@@ -2,26 +2,56 @@
   "name": "ositolingoapp",
   "version": "1.0.0",
   "private": true,
+  "description": "OsitoLingo desktop app",
+  "author": "Isaac",
+  "productName": "OsitoLingo",
   "type": "commonjs",
   "main": "electron/main.js",
   "scripts": {
     "dev": "concurrently \"vite\" \"electron .\"",
     "build": "vite build",
     "electron": "electron .",
+    "dist:win": "npm run build && electron-builder --win portable",
+    "postinstall": "electron-builder install-app-deps",
     "check:content-encoding": "node scripts/check-content-encoding.js",
     "fix:content-encoding": "node scripts/fix-content-encoding.js",
     "verify": "npm run check:content-encoding && npm run build"
   },
   "dependencies": {
     "better-sqlite3": "^11.0.0",
-    "electron": "^30.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "concurrently": "^9.2.1",
+    "electron": "^30.0.0",
+    "electron-builder": "^26.0.12",
     "electron-rebuild": "^3.2.9",
     "vite": "^5.4.0"
+  },
+  "build": {
+    "appId": "com.ositolingo.app",
+    "productName": "OsitoLingo",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "content_packs/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
   }
 }
