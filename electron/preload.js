@@ -20,3 +20,8 @@ contextBridge.exposeInMainWorld("progressApi", {
   markOutsideWorkYesterday: () => ipcRenderer.invoke("progress:outside-yesterday"),
   setCurrentStreak: (streakValue) => ipcRenderer.invoke("progress:set-current-streak", streakValue),
 });
+
+contextBridge.exposeInMainWorld("shareApi", {
+  savePng: (dataUrl, defaultFileName) =>
+    ipcRenderer.invoke("share:save-png", { dataUrl, defaultFileName }),
+});

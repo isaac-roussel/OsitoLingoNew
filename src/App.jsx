@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { api } from "./api.js";
 import homeLogo from "./assets/OsitoLogoSmall.png";
+import streakShareTemplate from "./assets/streak-share-template.png";
 
 const STORAGE_KEYS = {
   language: "ositolingo:last-language",
@@ -159,6 +160,52 @@ function languageToSpeechLocale(languageCode) {
   }
 }
 
+function loadImage(src) {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = () => reject(new Error("Could not load the streak share template."));
+    image.src = src;
+  });
+}
+
+function getShareStreakValue(progress) {
+  const rawValue = Number(progress?.currentStreak ?? 0);
+  if (!Number.isFinite(rawValue)) return 0;
+  return Math.max(0, Math.round(rawValue));
+}
+
+async function buildStreakShareImage(templateSrc, streakValue) {
+  const image = await loadImage(templateSrc);
+  const canvas = document.createElement("canvas");
+  canvas.width = image.naturalWidth || image.width;
+  canvas.height = image.naturalHeight || image.height;
+
+  const ctx = canvas.getContext("2d");
+  if (!ctx) {
+    throw new Error("Canvas is not available on this device.");
+  }
+
+  ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+
+  const streakText = String(streakValue);
+  const fontSize = streakText.length >= 4 ? 126 : streakText.length === 3 ? 150 : 176;
+
+  ctx.save();
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillStyle = "#fff7da";
+  ctx.shadowColor = "rgba(11, 61, 11, 0.75)";
+  ctx.shadowBlur = 26;
+  ctx.shadowOffsetX = 0;
+  ctx.shadowOffsetY = 10;
+  ctx.font = `700 ${fontSize}px "Trebuchet MS", "Segoe UI", sans-serif`;
+  ctx.fillText(streakText, canvas.width * 0.22, canvas.height * 0.40, canvas.width * 0.26);
+  ctx.restore();
+
+  return canvas.toDataURL("image/png");
+}
+
 export default function App() {
   const [languages, setLanguages] = useState([]);
   const [languageCode, setLanguageCode] = useState(() => getStoredPreference(STORAGE_KEYS.language));
@@ -171,6 +218,8 @@ export default function App() {
   const [progress, setProgress] = useState(null);
   const [manualStreakMessage, setManualStreakMessage] = useState(null);
   const [isSavingOutsideWork, setIsSavingOutsideWork] = useState(false);
+  const [isGeneratingShareImage, setIsGeneratingShareImage] = useState(false);
+  const [shareImageMessage, setShareImageMessage] = useState(null);
   const [streakDraft, setStreakDraft] = useState("");
   const [backgroundColor, setBackgroundColor] = useState(() =>
     normalizeHexColor(getStoredPreference(STORAGE_KEYS.backgroundColor))
@@ -449,6 +498,35 @@ export default function App() {
       );
     } finally {
       setIsSavingOutsideWork(false);
+    }
+  }
+
+  async function createStreakShareImage() {
+    if (!window.shareApi) {
+      setShareImageMessage("Sharing is not available in this build.");
+      return;
+    }
+
+    setIsGeneratingShareImage(true);
+    setShareImageMessage(null);
+
+    try {
+      const streakValue = getShareStreakValue(progress);
+      const dataUrl = await buildStreakShareImage(streakShareTemplate, streakValue);
+      const result = await window.shareApi.savePng(
+        dataUrl,
+        `ositolingo-streak-${streakValue}.png`
+      );
+
+      if (result?.canceled) {
+        setShareImageMessage("Share image save canceled.");
+      } else {
+        setShareImageMessage(`Share image saved to ${result?.filePath}.`);
+      }
+    } catch (error) {
+      setShareImageMessage(error?.message ?? "Could not create the share image.");
+    } finally {
+      setIsGeneratingShareImage(false);
     }
   }
 
@@ -944,7 +1022,15 @@ export default function App() {
               >
                 {isSavingOutsideWork ? "Saving..." : "Update current streak"}
               </button>
+              <button
+                className="choice"
+                onClick={createStreakShareImage}
+                disabled={isGeneratingShareImage}
+              >
+                {isGeneratingShareImage ? "Creating image..." : "Create streak image"}
+              </button>
               {manualStreakMessage && <div className="ok">{manualStreakMessage}</div>}
+              {shareImageMessage && <div className="muted">{shareImageMessage}</div>}
             </div>
           )}
 

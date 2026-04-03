@@ -144,6 +144,10 @@ select.input option{
   justify-items: start;
 }
 
+.streak-card .choice{
+  text-align: center;
+}
+
 .app-shell{
   display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;

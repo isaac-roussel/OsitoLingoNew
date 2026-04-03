@@ -8,7 +8,7 @@
 //   "exercises": [ { "exercise_type": "...", ... }, ... ]
 // }
 
-const { app, BrowserWindow, ipcMain } = require("electron");
+const { app, BrowserWindow, ipcMain, dialog } = require("electron");
 const path = require("path");
 const fs = require("fs");
 const {
@@ -24,6 +24,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1100,
     height: 800,
+    icon: path.join(__dirname, "icon.png"),
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       contextIsolation: true,
@@ -49,6 +50,30 @@ app.whenReady().then(() => {
 
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
+});
+
+ipcMain.handle("share:save-png", async (_evt, payload = {}) => {
+  const dataUrl = (payload.dataUrl ?? "").toString();
+  const defaultFileName = (payload.defaultFileName ?? "ositolingo-streak.png").toString();
+
+  const matches = dataUrl.match(/^data:image\/png;base64,(.+)$/);
+  if (!matches) {
+    throw new Error("Invalid PNG data.");
+  }
+
+  const win = BrowserWindow.getFocusedWindow() ?? BrowserWindow.getAllWindows()[0] ?? null;
+  const result = await dialog.showSaveDialog(win, {
+    title: "Save streak image",
+    defaultPath: defaultFileName,
+    filters: [{ name: "PNG Image", extensions: ["png"] }]
+  });
+
+  if (result.canceled || !result.filePath) {
+    return { canceled: true };
+  }
+
+  fs.writeFileSync(result.filePath, Buffer.from(matches[1], "base64"));
+  return { canceled: false, filePath: result.filePath };
 });
 
 function getContentDir() {
