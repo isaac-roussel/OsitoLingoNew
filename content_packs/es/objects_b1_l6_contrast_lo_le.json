@@ -1,0 +1,89 @@
+{
+  "theme": {
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Object Pronouns in Context",
+    "description": "B1 practice with direct and indirect object pronouns, contrast, and more natural sentence patterns.",
+    "level_cefr": "B1",
+    "sort_order": 330,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_b1_l6",
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Lesson 6: lo/la vs le",
+    "instructions": "Contrast direct and indirect object pronouns in realistic B1-level sentences.",
+    "estimated_min": 12,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I know Daniel well, but I almost never speak to him after work.",
+      "answer": "Conozco bien a Daniel, pero casi nunca le hablo despues del trabajo.",
+      "explanation": "Use the full noun with 'conozco' and indirect object 'le' with 'hablo'.",
+      "difficulty": 3,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "La vi en la conferencia, pero no le hice ninguna pregunta.",
+      "answer": "I saw her at the conference, but I did not ask her any questions.",
+      "explanation": "'La' is direct object and 'le' is indirect object.",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My neighbors invited us to dinner, but we still have not answered them.",
+      "answer": "Nuestros vecinos nos invitaron a cenar, pero todavia no les hemos contestado.",
+      "explanation": "'Nos' receives the invitation; 'les' receives the answer.",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Lo escuche con atencion, aunque no le crei todo.",
+      "answer": "I listened to him carefully, although I did not believe everything he told me.",
+      "answer_alt": "I listened to him carefully, although I did not believe all of it.",
+      "explanation": "The first pronoun is direct object; the second marks the person affected.",
+      "difficulty": 4,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The manager called Laura this morning, but he did not explain the problem to her clearly.",
+      "answer": "El gerente llamo a Laura esta manana, pero no le explico el problema con claridad.",
+      "explanation": "Use 'le' with 'explicar' for the person who receives the explanation.",
+      "difficulty": 3,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Cuando lo salude, le note la voz cansada.",
+      "answer": "When I greeted him, I noticed his tired voice.",
+      "answer_alt": "When I greeted him, I noticed that his voice sounded tired.",
+      "explanation": "This sentence contrasts a direct object with an indirect object in the same context.",
+      "difficulty": 4,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I understand your idea, but I do not agree with you completely.",
+      "answer": "Entiendo tu idea, pero no estoy completamente de acuerdo contigo.",
+      "explanation": "A contrast sentence without forcing an unnatural object pronoun where Spanish prefers another structure.",
+      "difficulty": 3,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "La respeto mucho, por eso siempre le pido consejo.",
+      "answer": "I respect her a lot, so I always ask her for advice.",
+      "explanation": "'La' is direct object and 'le' is indirect object.",
+      "difficulty": 3,
+      "sort_order": 80
+    }
+  ]
+}

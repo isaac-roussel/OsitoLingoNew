@@ -1,0 +1,91 @@
+{
+  "theme": {
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Direct and Indirect Objects",
+    "description": "Practice direct object pronouns, indirect object pronouns, and combinations of both in practical Spanish.",
+    "level_cefr": "A2",
+    "sort_order": 320,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_a2b1_l1",
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Lesson 1: Direct Objects",
+    "instructions": "Practice common direct object pronouns with short everyday sentences.",
+    "estimated_min": 10,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I see the movie. I see it.",
+      "answer": "Veo la pelicula. La veo.",
+      "explanation": "Use 'la' to replace 'la pelicula'.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We buy the books. We buy them.",
+      "answer": "Compramos los libros. Los compramos.",
+      "explanation": "Use 'los' for a masculine plural direct object.",
+      "difficulty": 2,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "La conozco muy bien.",
+      "answer": "I know her very well.",
+      "answer_alt": "I know her really well.",
+      "explanation": "'La' is the feminine direct object pronoun.",
+      "difficulty": 2,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No los entiendo todavia.",
+      "answer": "I still do not understand them.",
+      "answer_alt": "I do not understand them yet.",
+      "explanation": "'Los' replaces a masculine plural object.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Do you have the keys? Yes, I have them here.",
+      "answer": "Tienes las llaves? Si, las tengo aqui.",
+      "explanation": "Use 'las' to replace 'las llaves'.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My brother is reading the emails now. He is reading them now.",
+      "answer": "Mi hermano esta leyendo los correos ahora. Los esta leyendo ahora.",
+      "answer_alt": "Mi hermano esta leyendo los correos ahora. Esta leyendolos ahora.",
+      "explanation": "The direct object pronoun can go before the conjugated verb or attach to the gerund.",
+      "difficulty": 3,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Quiero comprarla manana.",
+      "answer": "I want to buy it tomorrow.",
+      "explanation": "The pronoun attaches to the infinitive.",
+      "difficulty": 2,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Las vamos a visitar este fin de semana.",
+      "answer": "We are going to visit them this weekend.",
+      "answer_alt": "We are going to visit them this coming weekend.",
+      "explanation": "'Las' refers to a feminine plural object.",
+      "difficulty": 3,
+      "sort_order": 80
+    }
+  ]
+}

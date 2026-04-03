@@ -1,6 +1,9 @@
 // electron/main.js
-// JSON-only content loader: reads lesson packs from ../content_packs (dev) or appPath/content_packs (prod)
-// and per-language metadata from content_packs/languages/*.json
+// JSON-only content loader.
+// In dev, reads directly from ../content_packs.
+// In packaged builds, merges bundled content with optional external overrides from:
+// %APPDATA%/OsitoLingo/content_packs and a content_packs folder next to the executable.
+// Later roots override earlier ones when theme_code or lesson_code matches.
 // Expected per-file shape:
 // {
 //   "theme": { "theme_code": "...", "title": "...", "sort_order": 10, "is_active": 1, ... },
@@ -41,6 +44,7 @@ function createWindow() {
 }
 
 app.whenReady().then(() => {
+  ensureExternalContentDirs();
   createWindow();
 
   app.on("activate", () => {
@@ -77,15 +81,37 @@ ipcMain.handle("share:save-png", async (_evt, payload = {}) => {
 });
 
 function getContentDir() {
-  const devDir = path.join(__dirname, "..", "content_packs");
-  const prodDir = path.join(app.getAppPath(), "content_packs");
-
-  if (fs.existsSync(devDir)) return devDir;
-  return prodDir;
+  const roots = getContentRoots();
+  return roots[roots.length - 1];
 }
 
-function getLanguageDir() {
-  return path.join(getContentDir(), "languages");
+function ensureDir(dirPath) {
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true });
+  }
+}
+
+function getContentRoots() {
+  const devDir = path.join(__dirname, "..", "content_packs");
+  if (fs.existsSync(devDir)) return [devDir];
+
+  const bundledDir = path.join(app.getAppPath(), "content_packs");
+  const userDataDir = path.join(app.getPath("userData"), "content_packs");
+  const sidecarDir = path.join(path.dirname(process.execPath), "content_packs");
+
+  return [bundledDir, userDataDir, sidecarDir];
+}
+
+function ensureExternalContentDirs() {
+  if (isDev) return;
+
+  const userDataDir = path.join(app.getPath("userData"), "content_packs");
+  ensureDir(userDataDir);
+  ensureDir(path.join(userDataDir, "languages"));
+}
+
+function getLanguageDirs() {
+  return getContentRoots().map((root) => path.join(root, "languages"));
 }
 
 function collectJsonFiles(dir, options = {}) {
@@ -154,18 +180,9 @@ function fallbackLanguage(languageCode) {
 }
 
 function loadLanguageConfigs() {
-  const dir = getLanguageDir();
   const languagesByCode = new Map();
   const distractorsByLanguage = new Map();
-
-  if (!fs.existsSync(dir)) {
-    const legacySpanish = fallbackLanguage("es");
-    languagesByCode.set(legacySpanish.language_code, legacySpanish);
-    distractorsByLanguage.set(legacySpanish.language_code, {});
-    return { languagesByCode, distractorsByLanguage };
-  }
-
-  const files = collectJsonFiles(dir);
+  const files = getLanguageDirs().flatMap((dir) => collectJsonFiles(dir));
 
   for (const filePath of files) {
     const doc = safeReadJson(filePath);
@@ -197,23 +214,14 @@ function loadLanguageConfigs() {
 }
 
 function loadAllContent() {
-  const dir = getContentDir();
+  const contentRoots = getContentRoots();
   const { languagesByCode, distractorsByLanguage } = loadLanguageConfigs();
-
-  if (!fs.existsSync(dir)) {
-    return {
-      languages: [],
-      themes: [],
-      lessonsByTheme: new Map(),
-      lessonsByCode: new Map(),
-      distractorsByLanguage
-    };
-  }
-
-  const files = collectJsonFiles(dir, {
-    excludeDirs: new Set(["languages"]),
-    excludeFiles: new Set(["index.json"])
-  });
+  const files = contentRoots.flatMap((dir) =>
+    collectJsonFiles(dir, {
+      excludeDirs: new Set(["languages"]),
+      excludeFiles: new Set(["index.json"])
+    })
+  );
 
   const themesByCode = new Map();
   const lessonsByTheme = new Map();
@@ -249,13 +257,13 @@ function loadAllContent() {
     theme.language_title = theme.language_title || language.title;
     theme.language_native_title = theme.language_native_title || language.native_title;
 
-    if (!themesByCode.has(theme.theme_code)) {
-      themesByCode.set(theme.theme_code, theme);
-    }
+    themesByCode.set(theme.theme_code, theme);
 
     lessonsByCode.set(lesson.lesson_code, { lesson, exercises });
     activeLanguageCodes.add(language.language_code);
+  }
 
+  for (const { lesson } of lessonsByCode.values()) {
     if (!lessonsByTheme.has(lesson.theme_code)) lessonsByTheme.set(lesson.theme_code, []);
     lessonsByTheme.get(lesson.theme_code).push({
       lesson_code: lesson.lesson_code,

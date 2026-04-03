@@ -1,0 +1,89 @@
+{
+  "theme": {
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Direct and Indirect Objects",
+    "description": "Practice direct object pronouns, indirect object pronouns, and combinations of both in practical Spanish.",
+    "level_cefr": "A2",
+    "sort_order": 320,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_a2b1_l5",
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Lesson 5: Review and Contrast",
+    "instructions": "Review direct objects, indirect objects, and double-object combinations in both directions.",
+    "estimated_min": 12,
+    "sort_order": 50,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I know Pedro, but I do not know his sisters.",
+      "answer": "Conozco a Pedro, pero no conozco a sus hermanas.",
+      "explanation": "This contrast keeps the direct objects as full nouns.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Lo conozco, pero no le hablo mucho.",
+      "answer": "I know him, but I do not talk to him much.",
+      "explanation": "Compare direct object 'lo' with indirect object 'le'.",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Did you send Sofia the documents? Yes, I sent them to her this morning.",
+      "answer": "Le enviaste los documentos a Sofia? Si, se los envie esta manana.",
+      "explanation": "The answer uses both indirect and direct object pronouns.",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No quiero comprarlas porque ya te las prestaron.",
+      "answer": "I do not want to buy them because they already lent them to you.",
+      "answer_alt": "I do not want to buy them because someone already lent them to you.",
+      "explanation": "This sentence mixes a direct object with a double-object structure.",
+      "difficulty": 4,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My parents are going to give me the car for the weekend, but first they have to clean it.",
+      "answer": "Mis padres me van a prestar el carro para el fin de semana, pero primero tienen que limpiarlo.",
+      "answer_alt": "Mis padres me van a dar el coche para el fin de semana, pero primero tienen que limpiarlo.",
+      "explanation": "The first clause uses an indirect object; the second replaces the car with a direct object pronoun.",
+      "difficulty": 4,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Si ves a Laura, puedes darle esto? Si la veo, se lo doy.",
+      "answer": "If you see Laura, can you give this to her? If I see her, I will give it to her.",
+      "explanation": "The first sentence uses an attached indirect object pronoun and the answer uses both object pronouns.",
+      "difficulty": 4,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The doctor explained the results to us, but he did not explain them to our family.",
+      "answer": "El doctor nos explico los resultados, pero no se los explico a nuestra familia.",
+      "explanation": "The second clause requires 'se los' for 'to them' plus 'the results'.",
+      "difficulty": 4,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Te las puedo devolver manana si quieres.",
+      "answer": "I can give them back to you tomorrow if you want.",
+      "explanation": "'Te las' combines indirect and direct objects in a practical sentence.",
+      "difficulty": 3,
+      "sort_order": 80
+    }
+  ]
+}

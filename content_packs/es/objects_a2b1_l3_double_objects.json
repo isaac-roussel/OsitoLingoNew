@@ -1,0 +1,93 @@
+{
+  "theme": {
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Direct and Indirect Objects",
+    "description": "Practice direct object pronouns, indirect object pronouns, and combinations of both in practical Spanish.",
+    "level_cefr": "A2",
+    "sort_order": 320,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_a2b1_l3",
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Lesson 3: Direct and Indirect Together",
+    "instructions": "Combine indirect and direct object pronouns in the same sentence with useful everyday verbs.",
+    "estimated_min": 12,
+    "sort_order": 30,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I give the book to Maria. I give it to her.",
+      "answer": "Le doy el libro a Maria. Se lo doy.",
+      "explanation": "When 'le' and 'lo' appear together, 'le' becomes 'se'.",
+      "difficulty": 3,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Se la mando esta noche.",
+      "answer": "I am sending it to her tonight.",
+      "answer_alt": "I send it to her tonight.",
+      "explanation": "'Se la' means 'to her' plus a feminine singular direct object.",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Can you explain the problem to me? Can you explain it to me?",
+      "answer": "Puedes explicarme el problema? Puedes explicarmelo?",
+      "answer_alt": "Me puedes explicar el problema? Me lo puedes explicar?",
+      "explanation": "The second sentence needs both an indirect and a direct object pronoun.",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No se los quiero vender.",
+      "answer": "I do not want to sell them to him.",
+      "answer_alt": "I do not want to sell them to her.",
+      "explanation": "'Se' replaces 'le', and 'los' is the direct object.",
+      "difficulty": 3,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We are going to show the photos to our parents. We are going to show them to them.",
+      "answer": "Vamos a mostrar las fotos a nuestros padres. Se las vamos a mostrar.",
+      "answer_alt": "Vamos a mostrar las fotos a nuestros padres. Vamos a mostrarselas.",
+      "explanation": "Use 'se las' for 'to them' plus a feminine plural object.",
+      "difficulty": 3,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Siempre se lo digo a mis estudiantes.",
+      "answer": "I always tell it to my students.",
+      "answer_alt": "I always tell them that.",
+      "explanation": "Natural English often uses 'that' instead of repeating the direct object literally.",
+      "difficulty": 3,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She is reading the email to me because I cannot see it well.",
+      "answer": "Ella me esta leyendo el correo porque no puedo verlo bien.",
+      "answer_alt": "Ella esta leyendome el correo porque no puedo verlo bien.",
+      "explanation": "This sentence includes an indirect object with one verb and a direct object pronoun with another.",
+      "difficulty": 4,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Te lo voy a devolver manana.",
+      "answer": "I am going to give it back to you tomorrow.",
+      "explanation": "'Te lo' combines indirect and direct object pronouns.",
+      "difficulty": 3,
+      "sort_order": 80
+    }
+  ]
+}

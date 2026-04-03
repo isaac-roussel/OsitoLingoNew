@@ -1,0 +1,90 @@
+{
+  "theme": {
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Object Pronouns in Context",
+    "description": "B1 practice with direct and indirect object pronouns, contrast, and more natural sentence patterns.",
+    "level_cefr": "B1",
+    "sort_order": 330,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_b1_l9",
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Lesson 9: Longer Context Chains",
+    "instructions": "Follow object pronouns across clauses and connected ideas in more advanced B1 sentences.",
+    "estimated_min": 13,
+    "sort_order": 40,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Mi hermana encontro mis audifonos y me los dejo en la mesa para que no los perdiera otra vez.",
+      "answer": "My sister found my headphones and left them for me on the table so that I would not lose them again.",
+      "explanation": "Track the receiver and the direct object across both clauses.",
+      "difficulty": 5,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The professor gave us a lot of advice, but we did not know how to apply it to the project.",
+      "answer": "El profesor nos dio muchos consejos, pero no sabiamos como aplicarlos al proyecto.",
+      "explanation": "The second clause replaces 'consejos' with a direct object pronoun.",
+      "difficulty": 4,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Si alguien te ofrece una solucion rapida, no la aceptes sin revisarla bien.",
+      "answer": "If someone offers you a quick solution, do not accept it without reviewing it well.",
+      "answer_alt": "If someone offers you a quick solution, do not accept it without checking it carefully.",
+      "explanation": "This sentence chains an indirect object with repeated direct object reference.",
+      "difficulty": 4,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I wanted to show my grandparents the photos from the trip, but I forgot to send them to them.",
+      "answer": "Queria mostrarles a mis abuelos las fotos del viaje, pero olvide mandarselas.",
+      "answer_alt": "Queria mostrar las fotos del viaje a mis abuelos, pero olvide mandarselas.",
+      "explanation": "Use attached double pronouns in the second clause.",
+      "difficulty": 5,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Nos lo habian advertido varias veces, pero no quisimos hacerles caso.",
+      "answer": "They had warned us about it several times, but we did not want to pay attention to them.",
+      "explanation": "This sentence combines 'nos lo' with another indirect object phrase later.",
+      "difficulty": 5,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "When they explained the policy to me, I understood it, but I still did not agree with them.",
+      "answer": "Cuando me explicaron la politica, la entendi, pero aun no estaba de acuerdo con ellos.",
+      "explanation": "Spanish prefers a natural contrast rather than forcing an extra pronoun in the last clause.",
+      "difficulty": 4,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Voy a proponerselo manana, y si lo acepta, te lo contare enseguida.",
+      "answer": "I am going to propose it to him tomorrow, and if he accepts it, I will tell you about it right away.",
+      "answer_alt": "I am going to propose it to her tomorrow, and if she accepts it, I will tell you right away.",
+      "explanation": "This sentence contains several pronouns that refer to different ideas across clauses.",
+      "difficulty": 5,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They did not lend me the tools, so I had to buy them and return them to the store later.",
+      "answer": "No me prestaron las herramientas, asi que tuve que comprarlas y devolverlas a la tienda mas tarde.",
+      "explanation": "The direct object changes across the sentence but stays consistent in meaning.",
+      "difficulty": 4,
+      "sort_order": 80
+    }
+  ]
+}

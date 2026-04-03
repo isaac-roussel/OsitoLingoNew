@@ -1,0 +1,90 @@
+{
+  "theme": {
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Object Pronouns in Context",
+    "description": "B1 practice with direct and indirect object pronouns, contrast, and more natural sentence patterns.",
+    "level_cefr": "B1",
+    "sort_order": 330,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_b1_l7",
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Lesson 7: se lo and Related Patterns",
+    "instructions": "Practice double-object combinations such as se lo, se la, se los, and se las.",
+    "estimated_min": 12,
+    "sort_order": 20,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I promised Marta the report, and I am going to send it to her tonight.",
+      "answer": "Le prometi el informe a Marta y voy a mandarselo esta noche.",
+      "answer_alt": "Le prometi el informe a Marta y se lo voy a mandar esta noche.",
+      "explanation": "Use 'se lo' or the attached form with an infinitive.",
+      "difficulty": 4,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Si encuentras mis llaves, por favor devuelvemelas enseguida.",
+      "answer": "If you find my keys, please give them back to me right away.",
+      "explanation": "Attached pronouns are common with commands.",
+      "difficulty": 4,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They offered us the apartment, but in the end they rented it to someone else.",
+      "answer": "Nos ofrecieron el apartamento, pero al final se lo alquilaron a otra persona.",
+      "explanation": "Use 'se lo' because 'le lo' becomes 'se lo'.",
+      "difficulty": 4,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No queria contarles la noticia por telefono, asi que se la dije en persona.",
+      "answer": "I did not want to tell them the news over the phone, so I told it to them in person.",
+      "answer_alt": "I did not want to tell them the news over the phone, so I told them in person.",
+      "explanation": "Natural English may omit the repeated direct object.",
+      "difficulty": 4,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Can you explain the rules to us again? You did not explain them to us clearly the first time.",
+      "answer": "Puedes explicarnos las reglas otra vez? No nos las explicaste con claridad la primera vez.",
+      "explanation": "The second sentence uses both indirect and direct object pronouns.",
+      "difficulty": 4,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Se los habia guardado, pero alguien los movio de lugar.",
+      "answer": "I had saved them for them, but someone moved them.",
+      "explanation": "'Se los' marks both the receiver and the plural direct object.",
+      "difficulty": 4,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The company sent my parents the documents, but it did not send them the updated version.",
+      "answer": "La empresa les envio los documentos a mis padres, pero no se los envio actualizados.",
+      "answer_alt": "La empresa les envio los documentos a mis padres, pero no les envio la version actualizada.",
+      "explanation": "This contrasts a full direct object with a double-object structure.",
+      "difficulty": 4,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Cuando termine el diseno, te lo enseno para que me des tu opinion.",
+      "answer": "When I finish the design, I will show it to you so that you can give me your opinion.",
+      "explanation": "'Te lo' is a classic B1 double-object pattern.",
+      "difficulty": 4,
+      "sort_order": 80
+    }
+  ]
+}

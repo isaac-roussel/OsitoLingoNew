@@ -1,0 +1,90 @@
+{
+  "theme": {
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Object Pronouns in Context",
+    "description": "B1 practice with direct and indirect object pronouns, contrast, and more natural sentence patterns.",
+    "level_cefr": "B1",
+    "sort_order": 330,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_b1_l10",
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Lesson 10: B1 Review",
+    "instructions": "Review direct and indirect objects in mixed realistic situations with more natural B1 phrasing.",
+    "estimated_min": 13,
+    "sort_order": 50,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Did you tell your coworkers the news? No, I still have not told it to them.",
+      "answer": "Les contaste la noticia a tus companeros de trabajo? No, todavia no se la he contado.",
+      "explanation": "A classic review item with 'se la'.",
+      "difficulty": 4,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Lo habia preparado para ellos, pero al final no quisieron probarlo.",
+      "answer": "I had prepared it for them, but in the end they did not want to try it.",
+      "explanation": "Track the same direct object across both clauses.",
+      "difficulty": 4,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I was going to lend you my notes, but someone else asked me for them first.",
+      "answer": "Iba a prestarte mis apuntes, pero otra persona me los pidio primero.",
+      "answer_alt": "Te iba a prestar mis apuntes, pero otra persona me los pidio primero.",
+      "explanation": "The second clause uses both an indirect and a direct object pronoun.",
+      "difficulty": 4,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Si la directora te da una oportunidad, aprovechala y demuestrale que puede confiar en ti.",
+      "answer": "If the director gives you an opportunity, take advantage of it and show her that she can trust you.",
+      "answer_alt": "If the director gives you an opportunity, make the most of it and show her that she can trust you.",
+      "explanation": "This review sentence includes a direct object command and an indirect object in the next clause.",
+      "difficulty": 5,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They brought us the desserts, but they served them to the other table first by mistake.",
+      "answer": "Nos trajeron los postres, pero por error se los sirvieron primero a la otra mesa.",
+      "explanation": "Use 'se los' in the second clause.",
+      "difficulty": 5,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No queria interrumpirla, pero tenia que hacerle una pregunta importante.",
+      "answer": "I did not want to interrupt her, but I had to ask her an important question.",
+      "explanation": "This sentence contrasts direct and indirect object use naturally.",
+      "difficulty": 4,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My aunt recommended the book to me, and now I am recommending it to you.",
+      "answer": "Mi tia me recomendo el libro y ahora yo te lo recomiendo.",
+      "explanation": "A clean review sentence with 'te lo'.",
+      "difficulty": 4,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Cuando termines el informe, enviamelo y yo se lo paso al cliente.",
+      "answer": "When you finish the report, send it to me and I will pass it on to the client.",
+      "answer_alt": "When you finish the report, send it to me and I will send it to the client.",
+      "explanation": "This sentence chains two double-object actions together.",
+      "difficulty": 5,
+      "sort_order": 80
+    }
+  ]
+}

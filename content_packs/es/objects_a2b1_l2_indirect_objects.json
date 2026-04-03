@@ -1,0 +1,91 @@
+{
+  "theme": {
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Direct and Indirect Objects",
+    "description": "Practice direct object pronouns, indirect object pronouns, and combinations of both in practical Spanish.",
+    "level_cefr": "A2",
+    "sort_order": 320,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_a2b1_l2",
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Lesson 2: Indirect Objects",
+    "instructions": "Practice me, te, le, nos, and les with common giving and telling verbs.",
+    "estimated_min": 10,
+    "sort_order": 20,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I give my friend a gift.",
+      "answer": "Le doy un regalo a mi amigo.",
+      "explanation": "'Le' marks the person receiving the gift.",
+      "difficulty": 2,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Mi madre me prepara cafe todas las mananas.",
+      "answer": "My mother makes coffee for me every morning.",
+      "answer_alt": "My mother prepares coffee for me every morning.",
+      "explanation": "'Me' is the indirect object pronoun.",
+      "difficulty": 2,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Can you tell us the truth?",
+      "answer": "Puedes decirnos la verdad?",
+      "answer_alt": "Nos puedes decir la verdad?",
+      "explanation": "The indirect object pronoun can attach to the infinitive or go before the conjugated verb.",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Les escribo a mis abuelos cada semana.",
+      "answer": "I write to my grandparents every week.",
+      "explanation": "'Les' refers to 'a mis abuelos'.",
+      "difficulty": 2,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The teacher explains the exercise to us.",
+      "answer": "La profesora nos explica el ejercicio.",
+      "explanation": "'Nos' is the indirect object pronoun.",
+      "difficulty": 2,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No le voy a contar eso.",
+      "answer": "I am not going to tell him that.",
+      "answer_alt": "I am not going to tell her that.",
+      "explanation": "'Le' can mean him or her.",
+      "difficulty": 3,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They are sending me a message right now.",
+      "answer": "Me estan mandando un mensaje ahora mismo.",
+      "answer_alt": "Estan mandandome un mensaje ahora mismo.",
+      "explanation": "The receiver takes the indirect object pronoun.",
+      "difficulty": 3,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Siempre te recomiendo este restaurante.",
+      "answer": "I always recommend this restaurant to you.",
+      "explanation": "'Te' marks the person receiving the recommendation.",
+      "difficulty": 2,
+      "sort_order": 80
+    }
+  ]
+}

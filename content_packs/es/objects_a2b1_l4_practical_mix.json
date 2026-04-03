@@ -1,0 +1,89 @@
+{
+  "theme": {
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Direct and Indirect Objects",
+    "description": "Practice direct object pronouns, indirect object pronouns, and combinations of both in practical Spanish.",
+    "level_cefr": "A2",
+    "sort_order": 320,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_a2b1_l4",
+    "theme_code": "objects_a2b1",
+    "language_code": "es",
+    "title": "Lesson 4: Practical Mixed Sentences",
+    "instructions": "Work with object pronouns in shopping, work, family, and daily-life situations.",
+    "estimated_min": 12,
+    "sort_order": 40,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Mi jefe me lo explico con mucha paciencia.",
+      "answer": "My boss explained it to me with a lot of patience.",
+      "explanation": "'Me lo' combines the receiver and the thing explained.",
+      "difficulty": 3,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I bought the tickets for Ana, and I already sent them to her.",
+      "answer": "Compre los boletos para Ana y ya se los mande.",
+      "answer_alt": "Compre las entradas para Ana y ya se las mande.",
+      "explanation": "The second clause uses both an indirect and a direct object pronoun.",
+      "difficulty": 3,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Si quieres, te la preparo ahora.",
+      "answer": "If you want, I will prepare it for you now.",
+      "explanation": "'Te la' means 'for you' plus a feminine singular object.",
+      "difficulty": 3,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The waiter brought us the menu, but he still has not brought it to the next table.",
+      "answer": "El camarero nos trajo el menu, pero todavia no se lo ha traido a la mesa de al lado.",
+      "explanation": "The second clause uses 'se lo' because 'le lo' becomes 'se lo'.",
+      "difficulty": 4,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "No les voy a ofrecer eso porque ya lo tienen.",
+      "answer": "I am not going to offer that to them because they already have it.",
+      "explanation": "This sentence uses an indirect object pronoun and then a separate direct object pronoun.",
+      "difficulty": 3,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My sister tells me the story every year, and every year she tells it to me differently.",
+      "answer": "Mi hermana me cuenta la historia cada ano y cada ano me la cuenta de manera diferente.",
+      "explanation": "'Me la' replaces 'la historia' as the thing told to me.",
+      "difficulty": 4,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Quiero mostrarselo antes de la reunion.",
+      "answer": "I want to show it to him before the meeting.",
+      "answer_alt": "I want to show it to her before the meeting.",
+      "explanation": "Attached pronouns often appear with infinitives.",
+      "difficulty": 3,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They wrote us a message, but they did not send it to us until late at night.",
+      "answer": "Nos escribieron un mensaje, pero no nos lo mandaron hasta muy tarde en la noche.",
+      "explanation": "'Nos lo' means 'to us' plus 'it'.",
+      "difficulty": 4,
+      "sort_order": 80
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "theme": {
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Object Pronouns in Context",
+    "description": "B1 practice with direct and indirect object pronouns, contrast, and more natural sentence patterns.",
+    "level_cefr": "B1",
+    "sort_order": 330,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "objects_b1_l8",
+    "theme_code": "objects_b1",
+    "language_code": "es",
+    "title": "Lesson 8: Pronoun Position",
+    "instructions": "Practice object pronoun placement with infinitives, gerunds, and commands.",
+    "estimated_min": 12,
+    "sort_order": 30,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I am going to explain it to you now because I do not want to repeat it later.",
+      "answer": "Voy a explicartelo ahora porque no quiero repetirlo mas tarde.",
+      "answer_alt": "Te lo voy a explicar ahora porque no quiero repetirlo mas tarde.",
+      "explanation": "Both placements are correct and natural.",
+      "difficulty": 4,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Estamos preparandosela desde hace semanas.",
+      "answer": "We have been preparing it for her for weeks.",
+      "answer_alt": "We have been getting it ready for her for weeks.",
+      "explanation": "Attached pronouns also appear with gerunds.",
+      "difficulty": 4,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Do not send it to me today. Send it to me tomorrow morning instead.",
+      "answer": "No me lo mandes hoy. Mandamelo manana por la manana.",
+      "explanation": "Negative commands place pronouns before the verb; affirmative commands attach them.",
+      "difficulty": 4,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Quiero seguir leyendolo antes de comentartelo.",
+      "answer": "I want to keep reading it before commenting on it to you.",
+      "answer_alt": "I want to continue reading it before talking to you about it.",
+      "explanation": "This sentence uses attached pronouns with two infinitives.",
+      "difficulty": 4,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "They were showing us the apartment when the agent suddenly offered it to another couple.",
+      "answer": "Nos estaban ensenando el apartamento cuando el agente de repente se lo ofrecio a otra pareja.",
+      "explanation": "The first clause uses an indirect object; the second uses 'se lo'.",
+      "difficulty": 5,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Si vas a decirselo, hazlo con cuidado.",
+      "answer": "If you are going to tell him, do it carefully.",
+      "answer_alt": "If you are going to tell her, do it carefully.",
+      "explanation": "The first clause attaches the pronouns to the infinitive; the second uses a direct object command.",
+      "difficulty": 4,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I was trying to explain the change to them, but I was not explaining it well.",
+      "answer": "Estaba intentando explicarles el cambio, pero no se lo estaba explicando bien.",
+      "answer_alt": "Les estaba intentando explicar el cambio, pero no se lo estaba explicando bien.",
+      "explanation": "This lesson focuses on keeping pronoun placement natural in longer clauses.",
+      "difficulty": 5,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_es_to_en",
+      "prompt": "Devuelveselo en cuanto puedas, por favor.",
+      "answer": "Give it back to him as soon as you can, please.",
+      "answer_alt": "Give it back to her as soon as you can, please.",
+      "explanation": "Affirmative commands attach both pronouns.",
+      "difficulty": 4,
+      "sort_order": 80
+    }
+  ]
+}
