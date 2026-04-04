@@ -93,7 +93,7 @@ function ensureDir(dirPath) {
 
 function getContentRoots() {
   const devDir = path.join(__dirname, "..", "content_packs");
-  if (fs.existsSync(devDir)) return [devDir];
+  if (isDev && fs.existsSync(devDir)) return [devDir];
 
   const bundledDir = path.join(app.getAppPath(), "content_packs");
   const userDataDir = path.join(app.getPath("userData"), "content_packs");

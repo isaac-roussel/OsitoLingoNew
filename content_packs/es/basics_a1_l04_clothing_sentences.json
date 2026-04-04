@@ -1,0 +1,108 @@
+{
+  "theme": {
+    "theme_code": "basics_a1",
+    "language_code": "es",
+    "title": "Basics",
+    "description": "Core beginner Spanish: everyday vocabulary and essential phrases.",
+    "level_cefr": "A1",
+    "sort_order": 100,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "basics_a1_l04",
+    "theme_code": "basics_a1",
+    "language_code": "es",
+    "title": "Basics 4: Clothing in Simple Sentences",
+    "instructions": "Practice common clothing words in short beginner sentences.",
+    "estimated_min": 8,
+    "sort_order": 40,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I have a sweater.",
+      "answer": "Tengo un sueter.",
+      "answer_alt": "Tengo un jersey.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "She wears boots.",
+      "answer": "Ella lleva botas.",
+      "answer_alt": "Ella usa botas.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The scarf is blue.",
+      "answer": "La bufanda es azul.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "He needs a belt.",
+      "answer": "El necesita un cinturon.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "My gloves are black.",
+      "answer": "Mis guantes son negros.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "We have new jeans.",
+      "answer": "Tenemos jeans nuevos.",
+      "answer_alt": "Tenemos vaqueros nuevos.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The shorts are white.",
+      "answer": "Los shorts son blancos.",
+      "answer_alt": "Los pantalones cortos son blancos.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "I want sunglasses.",
+      "answer": "Quiero gafas de sol.",
+      "answer_alt": "Quiero lentes de sol.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "Your coat is here.",
+      "answer": "Tu abrigo esta aqui.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_es",
+      "prompt": "The socks are clean.",
+      "answer": "Los calcetines estan limpios.",
+      "explanation": "",
+      "difficulty": 1,
+      "sort_order": 100
+    }
+  ]
+}
