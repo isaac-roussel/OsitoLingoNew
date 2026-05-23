@@ -71,7 +71,7 @@
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "Voy a proponerselo manana, y si lo acepta, te lo contare enseguida.",
+      "prompt": "Voy a proponérselo mañana, y si lo acepta, te lo contaré enseguida.",
       "answer": "I am going to propose it to him tomorrow, and if he accepts it, I will tell you about it right away.",
       "answer_alt": "I am going to propose it to her tomorrow, and if she accepts it, I will tell you right away.",
       "explanation": "This sentence contains several pronouns that refer to different ideas across clauses.",

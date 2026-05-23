@@ -22,8 +22,8 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "I promised Marta the report, and I am going to send it to her tonight.",
-      "answer": "Le prometi el informe a Marta y voy a mandarselo esta noche.",
-      "answer_alt": "Le prometi el informe a Marta y se lo voy a mandar esta noche.",
+      "answer": "Le prometí el informe a Marta y voy a mandárselo esta noche.",
+      "answer_alt": "Le prometí el informe a Marta y se lo voy a mandar esta noche.",
       "explanation": "Use 'se lo' or the attached form with an infinitive.",
       "difficulty": 4,
       "sort_order": 10

@@ -80,7 +80,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "The food is very good.",
-      "answer": "La comida esta muy buena.",
+      "answer": "La comida está muy buena.",
       "explanation": "Estar is common for how food tastes right now.",
       "difficulty": 2,
       "sort_order": 80

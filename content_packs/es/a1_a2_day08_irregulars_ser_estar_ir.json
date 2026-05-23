@@ -46,7 +46,7 @@
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "El esta en la oficina.",
+      "prompt": "Él está en la oficina.",
       "answer": "He is in the office.",
       "explanation": "Location takes estar.",
       "difficulty": 1,

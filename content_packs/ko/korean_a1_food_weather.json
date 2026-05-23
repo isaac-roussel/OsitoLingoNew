@@ -1,0 +1,148 @@
+{
+  "theme": {
+    "theme_code": "korean_a1_food_weather",
+    "language_code": "ko",
+    "title": "Food and Weather",
+    "description": "A1 Korean practice for simple opinions about food and weather with 좋아요 and 좋죠.",
+    "level_cefr": "A1",
+    "sort_order": 110,
+    "is_active": 1
+  },
+  "lesson": {
+    "lesson_code": "korean_a1_food_weather_l01",
+    "theme_code": "korean_a1_food_weather",
+    "language_code": "ko",
+    "title": "Food and Weather 1",
+    "instructions": "Practice simple A1 Korean sentences about food, Korean food, today, tomorrow, and the weather.",
+    "estimated_min": 8,
+    "sort_order": 10,
+    "is_active": 1
+  },
+  "exercises": [
+    {
+      "exercise_type": "translate_ko_to_en",
+      "prompt": "음식 좋죠?",
+      "answer": "Food is good, right?",
+      "answer_alt": "The food is good, right?",
+      "explanation": "좋죠? asks for agreement: good, right?",
+      "difficulty": 1,
+      "sort_order": 10
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Food is good, right?",
+      "answer": "음식 좋죠?",
+      "answer_alt": "음식이 좋죠?",
+      "explanation": "In casual topic-style A1 sentences, the particle can often be omitted.",
+      "difficulty": 1,
+      "sort_order": 20
+    },
+    {
+      "exercise_type": "translate_ko_to_en",
+      "prompt": "한국 음식.",
+      "answer": "Korean food.",
+      "explanation": "한국 means Korea or Korean; 음식 means food.",
+      "difficulty": 1,
+      "sort_order": 30
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Korean food.",
+      "answer": "한국 음식.",
+      "answer_alt": "한국 음식",
+      "explanation": "한국 음식 is a noun phrase: Korean food.",
+      "difficulty": 1,
+      "sort_order": 40
+    },
+    {
+      "exercise_type": "translate_ko_to_en",
+      "prompt": "한국 음식 좋죠?",
+      "answer": "Korean food is good, right?",
+      "answer_alt": "Korean food is nice, right?",
+      "explanation": "좋죠? is a friendly way to check agreement.",
+      "difficulty": 1,
+      "sort_order": 50
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Korean food is good, right?",
+      "answer": "한국 음식 좋죠?",
+      "answer_alt": "한국 음식이 좋죠?",
+      "explanation": "Add the noun phrase before 좋죠? to ask for agreement.",
+      "difficulty": 1,
+      "sort_order": 60
+    },
+    {
+      "exercise_type": "translate_ko_to_en",
+      "prompt": "좋아요.",
+      "answer": "It is good.",
+      "answer_alt": "Good.",
+      "explanation": "좋아요 is the polite present form for something being good.",
+      "difficulty": 1,
+      "sort_order": 70
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "It is good.",
+      "answer": "좋아요.",
+      "answer_alt": "좋아요",
+      "explanation": "좋아요 can stand alone when the subject is understood.",
+      "difficulty": 1,
+      "sort_order": 80
+    },
+    {
+      "exercise_type": "translate_ko_to_en",
+      "prompt": "오늘 날씨 좋아요.",
+      "answer": "The weather is good today.",
+      "answer_alt": "Today's weather is good.",
+      "explanation": "오늘 means today, and 날씨 means weather.",
+      "difficulty": 1,
+      "sort_order": 90
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "The weather is good today.",
+      "answer": "오늘 날씨 좋아요.",
+      "answer_alt": "오늘 날씨가 좋아요.",
+      "explanation": "날씨가 좋아요 is also correct with the subject particle 가.",
+      "difficulty": 1,
+      "sort_order": 100
+    },
+    {
+      "exercise_type": "translate_ko_to_en",
+      "prompt": "내일.",
+      "answer": "Tomorrow.",
+      "answer_alt": "Tomorrow",
+      "explanation": "내일 means tomorrow.",
+      "difficulty": 1,
+      "sort_order": 110
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Tomorrow.",
+      "answer": "내일.",
+      "answer_alt": "내일",
+      "explanation": "내일 is an A1 time word.",
+      "difficulty": 1,
+      "sort_order": 120
+    },
+    {
+      "exercise_type": "translate_ko_to_en",
+      "prompt": "내일 날씨 좋아요?",
+      "answer": "Will the weather be good tomorrow?",
+      "answer_alt": "Is the weather good tomorrow?",
+      "explanation": "A rising tone makes 좋아요? a question.",
+      "difficulty": 1,
+      "sort_order": 130
+    },
+    {
+      "exercise_type": "translate_en_to_ko",
+      "prompt": "Will the weather be good tomorrow?",
+      "answer": "내일 날씨 좋아요?",
+      "answer_alt": "내일 날씨가 좋아요?",
+      "explanation": "Korean often uses the present form for near-future context.",
+      "difficulty": 1,
+      "sort_order": 140
+    }
+  ]
+}

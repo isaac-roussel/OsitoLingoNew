@@ -22,7 +22,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Did you tell your coworkers the news? No, I still have not told it to them.",
-      "answer": "Les contaste la noticia a tus companeros de trabajo? No, todavia no se la he contado.",
+      "answer": "¿Les contaste la noticia a tus compañeros de trabajo? No, todavía no se la he contado.",
       "explanation": "A classic review item with 'se la'.",
       "difficulty": 4,
       "sort_order": 10

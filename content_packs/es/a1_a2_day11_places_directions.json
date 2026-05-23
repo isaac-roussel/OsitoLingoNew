@@ -22,7 +22,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Where is the bank?",
-      "answer": "Donde esta el banco?",
+      "answer": "¿Dónde está el banco?",
       "explanation": "A core directions question.",
       "difficulty": 1,
       "sort_order": 10
@@ -30,8 +30,8 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "The pharmacy is on Main Street.",
-      "answer": "La farmacia esta en la calle Main.",
-      "answer_alt": "La farmacia esta en la calle principal.",
+      "answer": "La farmacia está en la calle Main.",
+      "answer_alt": "La farmacia está en la calle principal.",
       "explanation": "Use estar for location.",
       "difficulty": 1,
       "sort_order": 20
@@ -46,7 +46,7 @@
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "El restaurante esta cerca de la plaza.",
+      "prompt": "El restaurante está cerca de la plaza.",
       "answer": "The restaurant is near the plaza.",
       "explanation": "Cerca de means near.",
       "difficulty": 2,
@@ -54,7 +54,7 @@
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "La escuela esta en frente del museo.",
+      "prompt": "La escuela está en frente del museo.",
       "answer": "The school is in front of the museum.",
       "explanation": "En frente de is a useful location phrase.",
       "difficulty": 2,
@@ -63,7 +63,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "The hotel is far from the airport.",
-      "answer": "El hotel esta lejos del aeropuerto.",
+      "answer": "El hotel está lejos del aeropuerto.",
       "explanation": "Lejos de means far from.",
       "difficulty": 2,
       "sort_order": 60

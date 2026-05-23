@@ -38,7 +38,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Did you send Sofia the documents? Yes, I sent them to her this morning.",
-      "answer": "Le enviaste los documentos a Sofia? Si, se los envie esta manana.",
+      "answer": "¿Le enviaste los documentos a Sofía? Sí, se los envié esta mañana.",
       "explanation": "The answer uses both indirect and direct object pronouns.",
       "difficulty": 3,
       "sort_order": 30
@@ -54,9 +54,9 @@
     },
     {
       "exercise_type": "translate_en_to_es",
-      "prompt": "My parents are going to give me the car for the weekend, but first they have to clean it.",
+      "prompt": "My parents are going to lend me the car for the weekend, but first they have to clean it.",
       "answer": "Mis padres me van a prestar el carro para el fin de semana, pero primero tienen que limpiarlo.",
-      "answer_alt": "Mis padres me van a dar el coche para el fin de semana, pero primero tienen que limpiarlo.",
+      "answer_alt": "Mis padres me van a prestar el coche para el fin de semana, pero primero tienen que limpiarlo.",
       "explanation": "The first clause uses an indirect object; the second replaces the car with a direct object pronoun.",
       "difficulty": 4,
       "sort_order": 50
@@ -72,14 +72,14 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "The doctor explained the results to us, but he did not explain them to our family.",
-      "answer": "El doctor nos explico los resultados, pero no se los explico a nuestra familia.",
+      "answer": "El doctor nos explicó los resultados, pero no se los explicó a nuestra familia.",
       "explanation": "The second clause requires 'se los' for 'to them' plus 'the results'.",
       "difficulty": 4,
       "sort_order": 70
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "Te las puedo devolver manana si quieres.",
+      "prompt": "Te las puedo devolver mañana si quieres.",
       "answer": "I can give them back to you tomorrow if you want.",
       "explanation": "'Te las' combines indirect and direct objects in a practical sentence.",
       "difficulty": 3,

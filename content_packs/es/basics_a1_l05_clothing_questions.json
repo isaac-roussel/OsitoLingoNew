@@ -54,7 +54,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Where are my pajamas?",
-      "answer": "Donde estan mis pijamas.",
+      "answer": "¿Dónde están mis pijamas?",
       "explanation": "",
       "difficulty": 1,
       "sort_order": 50
@@ -62,7 +62,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Your pajamas are on the bed.",
-      "answer": "Tus pijamas estan en la cama.",
+      "answer": "Tus pijamas están en la cama.",
       "explanation": "",
       "difficulty": 1,
       "sort_order": 60
@@ -87,8 +87,8 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "The wallet is in the bag.",
-      "answer": "La cartera esta en la bolsa.",
-      "answer_alt": "La billetera esta en la bolsa.",
+      "answer": "La cartera está en la bolsa.",
+      "answer_alt": "La billetera está en la bolsa.",
       "explanation": "",
       "difficulty": 1,
       "sort_order": 90

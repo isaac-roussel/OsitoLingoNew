@@ -62,9 +62,9 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "They study in the morning.",
-      "answer": "Estudian por la manana.",
-      "answer_alt": "Estudian en la manana.",
-      "explanation": "Por la manana is common for in the morning.",
+      "answer": "Estudian por la mañana.",
+      "answer_alt": "Estudian en la mañana.",
+      "explanation": "Por la mañana is common for in the morning.",
       "difficulty": 2,
       "sort_order": 60
     },

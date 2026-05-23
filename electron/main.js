@@ -11,20 +11,85 @@
 //   "exercises": [ { "exercise_type": "...", ... }, ... ]
 // }
 
-const { app, BrowserWindow, ipcMain, dialog } = require("electron");
+const { app, BrowserWindow, ipcMain, dialog, Menu, Tray, nativeImage } = require("electron");
 const path = require("path");
 const fs = require("fs");
 const {
   ensureProgressSeeded,
   markLessonCompleted,
   markOutsideAppYesterday,
+  markOutsideAppToday,
   setCurrentStreak
 } = require("./progressStore");
 
 const isDev = !app.isPackaged;
+let mainWindow = null;
+let tray = null;
+let isQuitting = false;
+
+function getTrayIcon() {
+  const iconPath = path.join(__dirname, "icon.png");
+  const image = nativeImage.createFromPath(iconPath);
+
+  if (process.platform === "win32") {
+    return image.resize({ width: 16, height: 16 });
+  }
+
+  return image;
+}
+
+function showMainWindow() {
+  if (!mainWindow) return;
+
+  mainWindow.setSkipTaskbar(false);
+
+  if (mainWindow.isMinimized()) {
+    mainWindow.restore();
+  }
+
+  mainWindow.show();
+  mainWindow.focus();
+}
+
+function hideMainWindow() {
+  if (!mainWindow) return;
+
+  mainWindow.hide();
+  mainWindow.setSkipTaskbar(true);
+}
+
+function createTray() {
+  if (tray) return;
+
+  tray = new Tray(getTrayIcon());
+  tray.setToolTip("OsitoLingo");
+  tray.setContextMenu(
+    Menu.buildFromTemplate([
+      { label: "Open OsitoLingo", click: showMainWindow },
+      { type: "separator" },
+      {
+        label: "Quit",
+        click: () => {
+          isQuitting = true;
+          app.quit();
+        }
+      }
+    ])
+  );
+
+  tray.on("click", () => {
+    if (!mainWindow) return;
+
+    if (mainWindow.isVisible()) {
+      hideMainWindow();
+    } else {
+      showMainWindow();
+    }
+  });
+}
 
 function createWindow() {
-  const win = new BrowserWindow({
+  mainWindow = new BrowserWindow({
     width: 1100,
     height: 800,
     icon: path.join(__dirname, "icon.png"),
@@ -35,25 +100,49 @@ function createWindow() {
     }
   });
 
+  mainWindow.on("minimize", (event) => {
+    event.preventDefault();
+    hideMainWindow();
+  });
+
+  mainWindow.on("close", (event) => {
+    if (isQuitting) return;
+    event.preventDefault();
+    hideMainWindow();
+  });
+
+  mainWindow.on("closed", () => {
+    mainWindow = null;
+  });
+
   if (isDev) {
-    win.loadURL("http://localhost:5173");
-    win.webContents.openDevTools({ mode: "detach" });
+    mainWindow.loadURL("http://localhost:5173");
+    mainWindow.webContents.openDevTools({ mode: "detach" });
   } else {
-    win.loadFile(path.join(__dirname, "..", "dist", "index.html"));
+    mainWindow.loadFile(path.join(__dirname, "..", "dist", "index.html"));
   }
 }
 
 app.whenReady().then(() => {
   ensureExternalContentDirs();
+  createTray();
   createWindow();
 
   app.on("activate", () => {
-    if (BrowserWindow.getAllWindows().length === 0) createWindow();
+    if (!mainWindow) {
+      createWindow();
+    } else {
+      showMainWindow();
+    }
   });
 });
 
 app.on("window-all-closed", () => {
-  if (process.platform !== "darwin") app.quit();
+  // Keep the app alive in the tray until the user explicitly quits.
+});
+
+app.on("before-quit", () => {
+  isQuitting = true;
 });
 
 ipcMain.handle("share:save-png", async (_evt, payload = {}) => {
@@ -323,6 +412,7 @@ ipcMain.handle("content:getThemes", () => {
 ipcMain.handle("progress:get", () => ensureProgressSeeded());
 ipcMain.handle("progress:complete", (_evt, lessonCode) => markLessonCompleted(lessonCode));
 ipcMain.handle("progress:outside-yesterday", () => markOutsideAppYesterday());
+ipcMain.handle("progress:outside-today", () => markOutsideAppToday());
 ipcMain.handle("progress:set-current-streak", (_evt, streakValue) => setCurrentStreak(streakValue));
 
 ipcMain.handle("content:getLessonsByTheme", (_evt, themeCode) => {

@@ -39,8 +39,8 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "I am twenty years old.",
-      "answer": "Tengo veinte anos.",
-      "answer_alt": "Yo tengo veinte anos.",
+      "answer": "Tengo veinte años.",
+      "answer_alt": "Yo tengo veinte años.",
       "explanation": "Age uses tener in Spanish.",
       "difficulty": 2,
       "sort_order": 30

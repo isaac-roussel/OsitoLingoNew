@@ -38,7 +38,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "My neighbors invited us to dinner, but we still have not answered them.",
-      "answer": "Nuestros vecinos nos invitaron a cenar, pero todavia no les hemos contestado.",
+      "answer": "Nuestros vecinos nos invitaron a cenar, pero todavía no les hemos contestado.",
       "explanation": "'Nos' receives the invitation; 'les' receives the answer.",
       "difficulty": 3,
       "sort_order": 30
@@ -55,7 +55,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "The manager called Laura this morning, but he did not explain the problem to her clearly.",
-      "answer": "El gerente llamo a Laura esta manana, pero no le explico el problema con claridad.",
+      "answer": "El gerente llamó a Laura esta mañana, pero no le explicó el problema con claridad.",
       "explanation": "Use 'le' with 'explicar' for the person who receives the explanation.",
       "difficulty": 3,
       "sort_order": 50

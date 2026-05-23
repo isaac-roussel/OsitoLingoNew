@@ -20,7 +20,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "I wake up at six every day.",
-      "answer": "Me despierto a las seis todos los dias.",
+      "answer": "Me despierto a las seis todos los días.",
       "explanation": "Frequency phrase.",
       "difficulty": 2,
       "sort_order": 10
@@ -52,7 +52,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "You shower in the morning.",
-      "answer": "Te duchas por la manana.",
+      "answer": "Te duchas por la mañana.",
       "explanation": "Morning phrase.",
       "difficulty": 1,
       "sort_order": 50
@@ -68,7 +68,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "He shaves every day.",
-      "answer": "Se afeita todos los dias.",
+      "answer": "Se afeita todos los días.",
       "explanation": "Afeitarse.",
       "difficulty": 1,
       "sort_order": 70
@@ -92,7 +92,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "I get ready quickly in the morning.",
-      "answer": "Me preparo rapido por la manana.",
+      "answer": "Me preparo rapido por la mañana.",
       "explanation": "Prepararse.",
       "difficulty": 2,
       "sort_order": 100

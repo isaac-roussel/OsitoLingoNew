@@ -46,8 +46,8 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Tomorrow is Tuesday.",
-      "answer": "Manana es martes.",
-      "explanation": "Manana means tomorrow in this context.",
+      "answer": "Mañana es martes.",
+      "explanation": "Mañana means tomorrow in this context.",
       "difficulty": 1,
       "sort_order": 40
     },

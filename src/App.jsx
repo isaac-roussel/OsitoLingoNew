@@ -175,6 +175,23 @@ function getShareStreakValue(progress) {
   return Math.max(0, Math.round(rawValue));
 }
 
+function getLessonCompletion(progress, lessonCode) {
+  if (!lessonCode) return null;
+  return progress?.lessonCompletion?.[lessonCode] ?? null;
+}
+
+function isLessonCompleted(progress, lessonCode) {
+  const lessonCompletion = getLessonCompletion(progress, lessonCode);
+  if (lessonCompletion?.completed) return true;
+  return Boolean(progress?.everCompleted?.[lessonCode]);
+}
+
+function isLessonCompletedToday(progress, lessonCode) {
+  const lessonCompletion = getLessonCompletion(progress, lessonCode);
+  if (!lessonCompletion?.lastCompletedAt || !progress?.today) return false;
+  return lessonCompletion.lastCompletedAt === progress.today;
+}
+
 async function buildStreakShareImage(templateSrc, streakValue) {
   const image = await loadImage(templateSrc);
   const canvas = document.createElement("canvas");
@@ -243,11 +260,34 @@ export default function App() {
   const [speechState, setSpeechState] = useState({ supported: true, speaking: false });
 
   useEffect(() => {
-    (async () => {
+    let isActive = true;
+
+    async function refreshProgress() {
       const p = await window.progressApi.get();
+      if (!isActive) return;
       setProgress(p);
       setStreakDraft(String(p?.currentStreak ?? 0));
-    })();
+    }
+
+    refreshProgress();
+
+    const intervalId = window.setInterval(refreshProgress, 60_000);
+    const handleWindowFocus = () => refreshProgress();
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        refreshProgress();
+      }
+    };
+
+    window.addEventListener("focus", handleWindowFocus);
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    return () => {
+      isActive = false;
+      window.clearInterval(intervalId);
+      window.removeEventListener("focus", handleWindowFocus);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
   }, []);
 
   useEffect(() => {
@@ -489,6 +529,32 @@ export default function App() {
   }
 
   async function markOutsideWorkYesterday() {
+    setIsSavingOutsideWork(true);
+    try {
+      const updated = await window.progressApi.markOutsideWorkYesterday();
+      setProgress(updated);
+      setManualStreakMessage(
+        `Marked yesterday as studied. Current streak is ${updated?.currentStreak ?? 0}.`
+      );
+    } finally {
+      setIsSavingOutsideWork(false);
+    }
+  }
+
+  async function markOutsideWorkToday() {
+    setIsSavingOutsideWork(true);
+    try {
+      const updated = await window.progressApi.markOutsideWorkToday();
+      setProgress(updated);
+      setManualStreakMessage(
+        `Marked today as studied. Current streak is ${updated?.currentStreak ?? 0}.`
+      );
+    } finally {
+      setIsSavingOutsideWork(false);
+    }
+  }
+
+  async function saveCurrentStreak() {
     setIsSavingOutsideWork(true);
     try {
       const updated = await window.progressApi.setCurrentStreak(streakDraft);
@@ -961,7 +1027,7 @@ export default function App() {
                 <div className="muted">No lessons found for {themeCode}.</div>
               ) : (
                 lessons.map((l, i) => {
-                  const doneOnce = !!progress?.everCompleted?.[l.lesson_code];
+                  const doneOnce = isLessonCompleted(progress, l.lesson_code);
                   return (
                     <button
                       key={l.lesson_code ?? `lesson-${i}`}
@@ -994,6 +1060,11 @@ export default function App() {
                 <div className="muted">
                   Longest: {progress.longestStreak}
                 </div>
+                <div className={progress.needsLessonToday ? "muted" : "ok"}>
+                  {progress.needsLessonToday
+                    ? "You still need to complete a lesson today."
+                    : "Today's lesson is done."}
+                </div>
               </>
             )}
           </div>
@@ -1006,6 +1077,20 @@ export default function App() {
               <div className="muted">
                 Adjust your current streak directly. Your longest streak will always be preserved.
               </div>
+              <button
+                className="choice"
+                onClick={markOutsideWorkYesterday}
+                disabled={isSavingOutsideWork}
+              >
+                {isSavingOutsideWork ? "Saving..." : "I studied elsewhere yesterday"}
+              </button>
+              <button
+                className="choice"
+                onClick={markOutsideWorkToday}
+                disabled={isSavingOutsideWork}
+              >
+                {isSavingOutsideWork ? "Saving..." : "I studied elsewhere today"}
+              </button>
               <input
                 className="input"
                 type="number"
@@ -1017,7 +1102,7 @@ export default function App() {
               />
               <button
                 className="choice"
-                onClick={markOutsideWorkYesterday}
+                onClick={saveCurrentStreak}
                 disabled={isSavingOutsideWork}
               >
                 {isSavingOutsideWork ? "Saving..." : "Update current streak"}

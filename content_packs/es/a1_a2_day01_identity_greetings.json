@@ -30,7 +30,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Good morning.",
-      "answer": "Buenos dias.",
+      "answer": "Buenos días.",
       "answer_alt": "Buen dia.",
       "explanation": "A common morning greeting.",
       "difficulty": 1,

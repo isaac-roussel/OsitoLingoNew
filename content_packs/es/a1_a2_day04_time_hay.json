@@ -78,8 +78,8 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "There are many people here.",
-      "answer": "Hay muchas personas aqui.",
-      "answer_alt": "Hay mucha gente aqui.",
+      "answer": "Hay muchas personas aquí.",
+      "answer_alt": "Hay mucha gente aquí.",
       "explanation": "Gente is also very common.",
       "difficulty": 2,
       "sort_order": 80

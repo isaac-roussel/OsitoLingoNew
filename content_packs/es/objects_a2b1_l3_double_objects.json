@@ -75,15 +75,15 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "She is reading the email to me because I cannot see it well.",
-      "answer": "Ella me esta leyendo el correo porque no puedo verlo bien.",
-      "answer_alt": "Ella esta leyendome el correo porque no puedo verlo bien.",
+      "answer": "Ella me está leyendo el correo porque no puedo verlo bien.",
+      "answer_alt": "Ella está leyéndome el correo porque no puedo verlo bien.",
       "explanation": "This sentence includes an indirect object with one verb and a direct object pronoun with another.",
       "difficulty": 4,
       "sort_order": 70
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "Te lo voy a devolver manana.",
+      "prompt": "Te lo voy a devolver mañana.",
       "answer": "I am going to give it back to you tomorrow.",
       "explanation": "'Te lo' combines indirect and direct object pronouns.",
       "difficulty": 3,

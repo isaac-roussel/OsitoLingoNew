@@ -45,7 +45,7 @@
     },
     {
       "exercise_type": "translate_es_to_en",
-      "prompt": "Su hermano trabaja aqui.",
+      "prompt": "Su hermano trabaja aquí.",
       "answer": "His brother works here.",
       "answer_alt": "Her brother works here.|Your brother works here.",
       "explanation": "Su can mean his, her, your, or their.",

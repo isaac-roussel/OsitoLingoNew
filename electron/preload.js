@@ -18,6 +18,7 @@ contextBridge.exposeInMainWorld("progressApi", {
   get: () => ipcRenderer.invoke("progress:get"),
   completeLesson: (lessonCode) => ipcRenderer.invoke("progress:complete", lessonCode),
   markOutsideWorkYesterday: () => ipcRenderer.invoke("progress:outside-yesterday"),
+  markOutsideWorkToday: () => ipcRenderer.invoke("progress:outside-today"),
   setCurrentStreak: (streakValue) => ipcRenderer.invoke("progress:set-current-streak", streakValue),
 });
 

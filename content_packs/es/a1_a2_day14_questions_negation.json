@@ -30,7 +30,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "When is the class?",
-      "answer": "Cuando es la clase?",
+      "answer": "¿Cuándo es la clase?",
       "explanation": "Cuando means when.",
       "difficulty": 1,
       "sort_order": 20
@@ -38,7 +38,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Why are you here?",
-      "answer": "Por que estas aqui?",
+      "answer": "¿Por qué estás aquí?",
       "explanation": "Por que means why in a question.",
       "difficulty": 2,
       "sort_order": 30

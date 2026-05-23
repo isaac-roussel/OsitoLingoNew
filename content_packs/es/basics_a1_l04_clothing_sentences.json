@@ -22,7 +22,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "I have a sweater.",
-      "answer": "Tengo un sueter.",
+      "answer": "Tengo un suéter.",
       "answer_alt": "Tengo un jersey.",
       "explanation": "",
       "difficulty": 1,
@@ -48,7 +48,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "He needs a belt.",
-      "answer": "El necesita un cinturon.",
+      "answer": "Él necesita un cinturón.",
       "explanation": "",
       "difficulty": 1,
       "sort_order": 40
@@ -91,7 +91,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "Your coat is here.",
-      "answer": "Tu abrigo esta aqui.",
+      "answer": "Tu abrigo está aquí.",
       "explanation": "",
       "difficulty": 1,
       "sort_order": 90
@@ -99,7 +99,7 @@
     {
       "exercise_type": "translate_en_to_es",
       "prompt": "The socks are clean.",
-      "answer": "Los calcetines estan limpios.",
+      "answer": "Los calcetines están limpios.",
       "explanation": "",
       "difficulty": 1,
       "sort_order": 100
