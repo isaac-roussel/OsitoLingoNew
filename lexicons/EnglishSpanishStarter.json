@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "source": "starter",
+    "version": 2,
+    "language": "es",
+    "nativeLang": "en"
+  },
+  "entries": [
+    {
+      "target": "hola",
+      "native": [
+        "hello"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    },
+    {
+      "target": "adiós",
+      "native": [
+        "goodbye"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    },
+    {
+      "target": "gracias",
+      "native": [
+        "thank you"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    },
+    {
+      "target": "por favor",
+      "native": [
+        "please"
+      ],
+      "status": 1,
+      "scope": "phrase",
+      "notes": ""
+    },
+    {
+      "target": "sí",
+      "native": [
+        "yes"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    },
+    {
+      "target": "no",
+      "native": [
+        "no"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    },
+    {
+      "target": "agua",
+      "native": [
+        "water"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    },
+    {
+      "target": "comida",
+      "native": [
+        "food"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    },
+    {
+      "target": "casa",
+      "native": [
+        "house",
+        "home"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    },
+    {
+      "target": "amigo",
+      "native": [
+        "friend"
+      ],
+      "status": 1,
+      "scope": "word",
+      "notes": ""
+    }
+  ]
+}
